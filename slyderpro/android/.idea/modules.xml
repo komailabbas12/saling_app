@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/slyderpro.iml" filepath="$PROJECT_DIR$/.idea/modules/slyderpro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/slyderpro.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/slyderpro.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/94510551/slyderpro.react-native-community_art.iml" filepath="$PROJECT_DIR$/.idea/modules/94510551/slyderpro.react-native-community_art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1917021394/slyderpro.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1917021394/slyderpro.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-67388032/slyderpro.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-67388032/slyderpro.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1439227462/slyderpro.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1439227462/slyderpro.react-native-svg.iml" />
+    </modules>
+  </component>
+</project>
