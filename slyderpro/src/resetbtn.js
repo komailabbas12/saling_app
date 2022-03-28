@@ -14,7 +14,7 @@ const Resetbtn = props => {
     setDown(false);
   }, [setDown]);
 
-  const gradColors = isDown ? ['#8b0000', 'gray'] : ['#616161', '#000000'];
+  const gradColors = isDown ? ['#616161', '#616161'] : ['#616161', '#000000'];
   const buttonCommonStyle = {
     borderRadius: size,
     shadowRadius: size * 1.5,
@@ -33,9 +33,7 @@ const Resetbtn = props => {
   };
 
   return (
-    <TouchableWithoutFeedback
-      onPressIn={handlePressIn}
-      onPressOut={handlePressOut}>
+    
       <View style={[styles.buttonOuter, buttonCommonStyle, buttonOuterStyle]}>
         <View style={[styles.buttonInner, buttonCommonStyle, buttonInnerStyle]}>
           <LinearGradient
@@ -48,7 +46,7 @@ const Resetbtn = props => {
           </LinearGradient>
         </View>
       </View>
-    </TouchableWithoutFeedback>
+  
   );
 };
 
