@@ -8,12 +8,24 @@
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_greencircle.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_greencircle.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_rn_edit_text_material.xml.flat",
@@ -28,19 +40,11 @@
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

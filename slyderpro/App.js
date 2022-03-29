@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import {View, Text,ScrollView,Dimensions,TouchableOpacity,Alert} from  'react-native';
+import {View, Text,ScrollView,Image,TouchableOpacity,Alert} from  'react-native';
 import NeumorphismButton from './src/neumorphism-button';
 import Resetbtn from './src/resetbtn';
 import { Switch } from 'react-native-switch';
 import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
 import { color } from 'react-native-reanimated';
+import greenCircle from './images/greencircle.png';
 
 
 
@@ -22,8 +23,13 @@ function App (){
 
     const [isEnabled4, setIsEnabled4] = useState(false);
     const toggleSwitch4 = () => setIsEnabled4(previousState => !previousState);
-    const screenHeight = Dimensions.get('window').height  
  
+    const [isEnabled5, setIsEnabled5] = useState(false);
+    const toggleSwitch5 = () => setIsEnabled5(previousState => !previousState);
+    
+    const [isEnabled6, setIsEnabled6] = useState(false);
+    const toggleSwitch6 = () => setIsEnabled6(previousState => !previousState);
+
     //set log 1 value
     const [myText1, setMyText1] = useState("11.5");
     const [myText2, setMyText2] = useState("13.5");
@@ -380,9 +386,9 @@ onPress = {() => Alert.alert(
 </View> 
   {/* controller and engine bb tab */}
 <View style={{flexDirection:'row'}}>
-<Text style={{left:20,top:42}}>controller</Text>
-<Text style={{left:95,top:42}}>engine bb</Text></View>
-<View style={{flexDirection:'row',left:10,top:50 }}>
+<Text style={{left:60,top:52}}>controller</Text>
+<Text style={{left:95,top:52}}>engine bb</Text></View>
+<View style={{flexDirection:'row',left:10,top:64 }}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -406,6 +412,7 @@ onPress = {() => Alert.alert(
 <Text style={{marginLeft:5,marginTop:5}}>°C</Text>
 </View>
 </Neomorph>
+<View style={{flexDirection:'column'}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -430,6 +437,13 @@ onPress = {() => Alert.alert(
 <Text style={{marginLeft:5,marginTop:5}}>°C</Text>
 </View>
 </Neomorph>
+<View style={{flexDirection:'row',top:5,right:30}}>
+<Text style={{}}>sea water pump</Text>
+<Image style={{width:10,height:10,alignSelf:'center',left:5}} 
+source={greenCircle}></Image>
+</View>
+</View>
+<View style={{flexDirection:'column'}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -443,7 +457,7 @@ onPress = {() => Alert.alert(
     backgroundColor: '#141414',
     width:84,
     height:35,
-    left:5  
+    right:10
     // ...include most of View/Layout styles
   }}
 >
@@ -453,13 +467,20 @@ onPress = {() => Alert.alert(
 <Text style={{marginLeft:5,marginTop:5}}>KW</Text>
 </View>
 </Neomorph>
+<View style={{flexDirection:'row',top:5,right:10}}>
+<Text style={{}}>cooling pump</Text>
+<Image style={{width:10,height:10,alignSelf:'center',left:5}} 
+source={greenCircle}></Image>
+</View>
+</View>
 </View>
 
 {/* engine stb and controller tab*/}
 <View style={{flexDirection:'row',justifyContent:'flex-end'}}>
-<Text style={{right:80,bottom:12}}>engine stb</Text>
-<Text style={{right:50,bottom:12}}>controller</Text></View>
-<View style={{flexDirection:'row',justifyContent:'flex-end',bottom:5 }}>
+<Text style={{right:100,bottom:20}}>engine stb</Text>
+<Text style={{right:70,bottom:20}}>controller</Text></View>
+<View style={{flexDirection:'row',justifyContent:'flex-end',bottom:10 }}>
+<View style={{flexDirection:'column'}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -473,7 +494,7 @@ onPress = {() => Alert.alert(
     backgroundColor: '#141414',
     width:84,
     height:35,
-    right:10  
+    left:8
     // ...include most of View/Layout styles
   }}
 >
@@ -483,6 +504,14 @@ onPress = {() => Alert.alert(
 <Text style={{marginLeft:5,marginTop:5}}>kw</Text>
 </View>
 </Neomorph>
+
+<View style={{flexDirection:'row',top:5,right:10}}>
+<Image style={{width:10,height:10,alignSelf:'center',right:10}} 
+source={greenCircle}></Image>
+<Text style={{}}>cooling pump</Text>
+</View>
+</View>
+<View style={{flexDirection:'column'}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -496,7 +525,7 @@ onPress = {() => Alert.alert(
     backgroundColor: '#141414',
     width:84,
     height:35,
-    right:5  
+     
     // ...include most of View/Layout styles
   }}
 >
@@ -506,6 +535,13 @@ onPress = {() => Alert.alert(
 <Text style={{marginLeft:5,marginTop:5}}>°C</Text>
 </View>
 </Neomorph>
+
+<View style={{flexDirection:'row',top:5}}>
+<Image style={{width:10,height:10,alignSelf:'center',left:5}} 
+source={greenCircle}></Image>
+<Text style={{left:10}}>sea water pump</Text>
+</View>
+</View>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -519,6 +555,7 @@ onPress = {() => Alert.alert(
     backgroundColor: '#141414',
     width:84,
     height:35,
+    right:10
     // ...include most of View/Layout styles
   }}
 >
@@ -531,7 +568,7 @@ onPress = {() => Alert.alert(
 </View>
 
 {/*generator toogle*/}
-<View style={{top:20,left:10}}>
+<View style={{top:10,left:10,flexDirection:'row'}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
@@ -551,8 +588,8 @@ onPress = {() => Alert.alert(
 >
   <View style={{top:3,left:3}}>
 <Switch
-onValueChange={toggleSwitch1}
-value={isEnabled1}
+onValueChange={toggleSwitch5}
+value={isEnabled5}
 disabled={false}
 activeText={'On'}
 inActiveText={'Off'}
@@ -578,10 +615,114 @@ switchBorderRadius={15}
 </View>
   <Text style={{textAlign:'center',top:5}}>generator</Text>
 </Neomorph>
+
+{/* water temp */}
+<View style={{top:10,width:"18%",justifyContent:'center',left:8,borderWidth:0.7,borderColor:'gray',borderRadius:10,padding:10}}> 
+<View>
+<View style={{flexDirection:'row', justifyContent:'space-between'}}>
+<Text style={{fontSize:12}}>WATER TEMP</Text>
+<Text style={{alignSelf:'flex-end'}}>°C</Text>
+</View>
+<View style={{flexDirection:'row'}}>
+<Text style={{fontSize:22,marginLeft:50,fontWeight:'bold'}}>9.9</Text>
+
+</View>
+</View>
+</View>
+{/* Range */}
+<View style={{top:10,alignItems:'center'}}>
+<View style={{justifyContent:'center',left:20,alignItems:'center',flexDirection:'row',borderWidth:0.7,borderColor:'gray',borderRadius:10,padding:10}}> 
+<View>
+<View style={{flexDirection:'row', justifyContent:'space-between'}}>
+<Text>RANGE</Text>
+<Text style={{alignSelf:'flex-end'}}>nm</Text>
+</View>
+<View style={{flexDirection:'row'}}>
+<Text style={{fontSize:22,marginLeft:20,fontWeight:'bold'}}>300</Text>
+<Text>         </Text>
+</View>
+</View>
+<View style={{ height: '100%',width: 1,backgroundColor: 'gray',marginLeft:5}}></View>
+<View>
+<View style={{marginLeft:20,flexDirection:'row', justifyContent:'space-between'}}>
+<Text>RANGE</Text>
+<Text style={{alignSelf:'flex-end'}}>min</Text>
+</View>
+<View style={{flexDirection:'row'}}>
+<Text style={{fontSize:22,marginLeft:20,fontWeight:'bold'}}>7:42</Text>
+</View>
+</View>
+</View>
+</View>
+
+{/* Depth*/}
+<View style={{top:10,width:"18%",justifyContent:'center',left:30,borderWidth:0.7,borderColor:'gray',borderRadius:10,padding:10}}> 
+<View>
+<View style={{flexDirection:'row', justifyContent:'space-between'}}>
+<Text style={{fontSize:12}}>DEPTH</Text>
+<Text style={{alignSelf:'flex-end'}}>m</Text>
+</View>
+<View style={{flexDirection:'row'}}>
+<Text style={{fontSize:22,marginLeft:50,fontWeight:'bold'}}>36.5</Text>
+
+</View>
+</View>
+</View>
+{/* capstan winches */}
+<View style={{top:10,left:38}}>
+<Neomorph
+  inner // <- enable inner shadow
+  darkShadowColor="#141414" // <- set this
+  lightShadowColor="#474747"
+  style={{
+    shadowOffset: {width: 10, height: 10},
+    shadowOpacity: 1,
+    shadowColor: "white",
+    shadowRadius: 3,
+    borderRadius: 25,
+    backgroundColor: '#141414',
+    width:95.5,
+    height:34,
+    
+    // ...include most of View/Layout styles
+  }}
+>
+  <View style={{top:3,left:3}}>
+<Switch
+onValueChange={toggleSwitch6}
+value={isEnabled6}
+disabled={false}
+activeText={'On'}
+inActiveText={'Off'}
+circleSize={30}
+barHeight={30}
+circleBorderWidth={14}
+circleBorderInactiveColor={'#141414'}
+circleBorderActiveColor={'#141414'}
+backgroundActive={'#202020'}
+backgroundInactive={'#202020'}
+circleActiveColor={'green'}
+circleInActiveColor={'gray'}
+// renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
+changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
+innerCircleStyle={{ width:40,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+renderActiveText={true}
+renderInActiveText={true}
+switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
+switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
+switchWidthMultiplier={3} // multiplied by the `circleSize` prop to calculate total width of the Switch
+switchBorderRadius={15}
+/>
+</View>
+  <Text style={{textAlign:'center',top:5,fontSize:12}}>capstan winches</Text>
+</Neomorph>
+</View>
+
 </View>
 {/* start/stop btn view*/}
-<View  style={{flexDirection:'row',top:50,left:5}}>
+<View  style={{flexDirection:'row',top:2,left:5}}>
 {/* start btn */}
+<View style={{flexDirection:'row'}}>
 <TouchableOpacity style={{
     borderRadius: 15,
     backgroundColor:bgColor1,alignSelf:'center',
@@ -600,11 +741,13 @@ onPress = {() => setBoth1()}
 onPress = {() => setBoth2()}>  
 
 <Text style={{color:'white',backgroundColor:'#222222',borderColor:'black',textAlign:'center',padding:8,borderRadius:15}} >stop</Text>
-
-
 </TouchableOpacity>
 </View>
-<View style={{height:100}} />
+
+</View>
+
+
+<View style={{height:10}} />
 </ScrollView>
 </View>
 )
