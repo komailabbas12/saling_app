@@ -5,7 +5,9 @@ INJECTED from C:\Users\Yasir Jamil\Desktop\slyderpro\android\app\src\main\Androi
 INJECTED from C:\Users\Yasir Jamil\Desktop\slyderpro\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from C:\Users\Yasir Jamil\Desktop\slyderpro\android\app\src\main\AndroidManifest.xml:1:1-26:12
 MERGED from [:react-native-community_art] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\@react-native-community\art\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-compass-heading] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-compass-heading\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-sensors] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-sensors\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-svg] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Yasir Jamil\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-linear-gradient] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
@@ -129,8 +131,12 @@ INJECTED from C:\Users\Yasir Jamil\Desktop\slyderpro\android\app\src\main\Androi
 INJECTED from C:\Users\Yasir Jamil\Desktop\slyderpro\android\app\src\main\AndroidManifest.xml
 MERGED from [:react-native-community_art] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\@react-native-community\art\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_art] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\@react-native-community\art\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-compass-heading] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-compass-heading\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-compass-heading] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-compass-heading\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sensors] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-sensors\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sensors] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-sensors\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-svg] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] C:\Users\Yasir Jamil\Desktop\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Yasir Jamil\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41

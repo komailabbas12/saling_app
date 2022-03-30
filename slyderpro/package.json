@@ -11,12 +11,16 @@
   },
   "dependencies": {
     "@react-native-community/art": "^1.2.0",
+    "lpf": "^1.0.0",
     "react": "17.0.2",
     "react-native": "0.67.4",
+    "react-native-compass-heading": "^1.4.0",
+    "react-native-easy-grid": "^0.2.2",
     "react-native-linear-gradient": "^2.5.6",
     "react-native-neomorph-shadows": "^1.1.2",
     "react-native-neu-element": "^1.1.9",
     "react-native-reanimated": "^1.13.4",
+    "react-native-sensors": "^7.3.5",
     "react-native-svg": "^11.0.1",
     "react-native-switch": "^1.5.1"
   },

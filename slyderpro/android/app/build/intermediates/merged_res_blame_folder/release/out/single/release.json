@@ -8,12 +8,16 @@
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_greencircle.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_greencircle.png"
+    },
+    {
         "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_greencircle.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_greencircle.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_compass_bg.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_compass_bg.png"
     },
     {
         "merged": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",

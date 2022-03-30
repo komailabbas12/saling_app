@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import {View, Text,ScrollView,Image,TouchableOpacity,Alert} from  'react-native';
+import React, { useState,useEffect } from 'react';
+import {View, Text,ScrollView,Image,TouchableOpacity,Alert,StyleSheet} from  'react-native';
 import NeumorphismButton from './src/neumorphism-button';
 import Resetbtn from './src/resetbtn';
 import { Switch } from 'react-native-switch';
 import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
 import { color } from 'react-native-reanimated';
 import greenCircle from './images/greencircle.png';
+import CompassHeading from 'react-native-compass-heading';
+import compassImage from './images/compass_bg.png';
 
 
 
@@ -46,6 +48,23 @@ function App (){
       setBgColor2('red');
     };
 
+
+    const [compassHeading, setCompassHeading] = useState(0);
+
+    useEffect(() => {
+      const degree_update_rate = 3;
+  
+      // accuracy on android will be hardcoded to 1
+      // since the value is not available.
+      // For iOS, it is in degrees
+      CompassHeading.start(degree_update_rate, ({heading, accuracy}) => {
+        setCompassHeading(heading, accuracy);
+      });
+  
+      return () => {
+        CompassHeading.stop();
+      };
+    }, []);
 return(    
   
 <View>
@@ -745,12 +764,24 @@ onPress = {() => setBoth2()}>
 </View>
 
 </View>
-
+<Image
+      style={[
+        styles.image,
+        {transform: [{rotate: `${360 - compassHeading}deg`}]},
+      ]}
+      resizeMode="contain"
+      source={compassImage}
+    />
 
 <View style={{height:10}} />
 </ScrollView>
 </View>
 )
 }
-
+const styles = StyleSheet.create({
+  image: {
+    width: '50%',
+    alignSelf: 'center',
+  },
+});
 export default App;

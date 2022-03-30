@@ -13,10 +13,14 @@ import java.util.ArrayList;
 
 // @react-native-community/art
 import com.reactnativecommunity.art.ARTPackage;
+// react-native-compass-heading
+import com.reactlibrary.compassheading.CompassHeadingPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-sensors
+import com.sensors.RNSensorsPackage;
 // react-native-svg
 import com.horcrux.svg.SvgPackage;
 
@@ -65,8 +69,10 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new ARTPackage(),
+      new CompassHeadingPackage(),
       new LinearGradientPackage(),
       new ReanimatedPackage(),
+      new RNSensorsPackage(),
       new SvgPackage()
     ));
   }
