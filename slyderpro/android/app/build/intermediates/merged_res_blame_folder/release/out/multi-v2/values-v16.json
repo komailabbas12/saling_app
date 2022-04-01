@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yasir Jamil\\.gradle\\caches\\transforms-3\\e0d2f8ad044427eee984d921896a19f7\\transformed\\core-1.1.0\\res\\values-v16\\values-v16.xml",

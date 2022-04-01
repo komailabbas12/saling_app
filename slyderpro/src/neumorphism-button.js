@@ -14,7 +14,7 @@ const NeumorphismButton = props => {
     setDown(false);
   }, [setDown]);
 
-  const gradColors = isDown ? ['#8b0000', 'gray'] : ['#616161', '#000000'];
+  const gradColors = isDown ? ['#000000', '#616161'] : ['#616161', '#000000'];
   const buttonCommonStyle = {
     borderRadius: size,
     shadowRadius: size * 1.5,

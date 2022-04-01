@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yasir Jamil\\.gradle\\caches\\transforms-3\\8668b2e297df496a2837cbcc29e59251\\transformed\\appcompat-1.0.2\\res\\values\\values.xml",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -135,24 +135,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "46",
-                        "endOffsets": "58"
-                    },
-                    "to": {
-                        "startLines": "312",
-                        "startColumns": "4",
-                        "startOffsets": "20270",
-                        "endColumns": "46",
-                        "endOffsets": "20312"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Yasir Jamil\\Desktop\\slyderpro\\android\\app\\build\\generated\\res\\resValues\\release\\values\\gradleResValues.xml",
+                    "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\resValues\\release\\values\\gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -166,6 +149,23 @@
                         "startOffsets": "17236,17300",
                         "endColumns": "63,68",
                         "endOffsets": "17295,17364"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "46",
+                        "endOffsets": "58"
+                    },
+                    "to": {
+                        "startLines": "312",
+                        "startColumns": "4",
+                        "startOffsets": "20270",
+                        "endColumns": "46",
+                        "endOffsets": "20312"
                     }
                 },
                 {

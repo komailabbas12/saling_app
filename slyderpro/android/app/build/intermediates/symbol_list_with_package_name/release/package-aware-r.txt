@@ -615,8 +615,12 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable autofill_inline_suggestion_chip_background
+drawable images_boat
 drawable images_compass_bg
+drawable images_compasscircle
 drawable images_greencircle
+drawable images_leftrevs
+drawable images_rightrevs
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
