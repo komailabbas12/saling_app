@@ -38,8 +38,8 @@ function App (){
     //set log 1 value
     const [myText1, setMyText1] = useState("11.5");
     const [myText2, setMyText2] = useState("13.5");
-    const [bgColor1, setBgColor1] = useState('white');
-    const [bgColor2, setBgColor2] = useState('white');
+    const [bgColor1, setBgColor1] = useState('#3e3e3e');
+    const [bgColor2, setBgColor2] = useState('#3e3e3e');
 
     const setBoth1 = () => {
       setBgColor1('red');
@@ -83,39 +83,39 @@ return(
     shadowOpacity: 1,
     shadowColor: "white",
     shadowRadius: 3,
-    borderRadius: 25,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:145,
+    width:155,
     height:65,
     
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{top:5,left:6}}>
+  <View style={{top:8,left:9}}>
 <Switch
 onValueChange={toggleSwitch1}
 value={isEnabled1}
 disabled={false}
-activeText={'On'}
-inActiveText={'Off'}
+activeText={'ON'}
+inActiveText={'OFF'}
 circleSize={34}
 barHeight={49}
-circleBorderWidth={25}
-circleBorderInactiveColor={'#141414'}
-circleBorderActiveColor={'#141414'}
+circleBorderWidth={27}
+circleBorderInactiveColor={'#181818'}
+circleBorderActiveColor={'#181818'}
 backgroundActive={'#141414'}
 backgroundInactive={'#141414'}
 circleActiveColor={'green'}
 circleInActiveColor={'gray'}
 // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
 changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
-innerCircleStyle={{ width:85,height:60,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+innerCircleStyle={{ width:79,height:59,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
 renderActiveText={true}
 renderInActiveText={true}
 switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
 switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
 switchWidthMultiplier={4} // multiplied by the `circleSize` prop to calculate total width of the Switch
-switchBorderRadius={16}
+switchBorderRadius={26}
 />
 </View>
 </Neomorph>
@@ -132,39 +132,39 @@ switchBorderRadius={16}
     shadowOpacity: 1,
     shadowColor: "white",
     shadowRadius: 3,
-    borderRadius: 25,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
+    width:155,
     height:65,
     
     // ...include most of View/Layout styles
   }}
 >
-<View style={{top:7,left:4}}>
-<Switch
+  <View style={{top:8,left:9}}>
+  <Switch
 onValueChange={toggleSwitch2}
 value={isEnabled2}
 disabled={false}
-activeText={'On'}
-inActiveText={'Off'}
+activeText={'ON'}
+inActiveText={'OFF'}
 circleSize={34}
-barHeight={48}
-circleBorderWidth={25}
-circleBorderInactiveColor={'#141414'}
-circleBorderActiveColor={'#141414'}
+barHeight={49}
+circleBorderWidth={27}
+circleBorderInactiveColor={'#181818'}
+circleBorderActiveColor={'#181818'}
 backgroundActive={'#141414'}
 backgroundInactive={'#141414'}
 circleActiveColor={'green'}
 circleInActiveColor={'gray'}
 // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
 changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
-innerCircleStyle={{ width:85,height:60,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+innerCircleStyle={{ width:79,height:59,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
 renderActiveText={true}
 renderInActiveText={true}
 switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
 switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
 switchWidthMultiplier={4} // multiplied by the `circleSize` prop to calculate total width of the Switch
-switchBorderRadius={14}
+switchBorderRadius={26}
 />
 </View>
 </Neomorph>
@@ -172,8 +172,8 @@ switchBorderRadius={14}
   </View>
 {/*MOB BUTTON */}
 <View style={{position:'absolute',alignSelf:'flex-end',top:30,right:50}}>
-<NeumorphismButton style={{padding: 25,height:97}}> 
- <Text style={{color:'white',fontSize:30}} >MOB</Text>
+<NeumorphismButton style={{padding: 25,borderColor:'#8b0000',borderWidth:8,borderRadius:20,height:120}}> 
+ <Text style={{color:'white',fontSize:30,alignSelf:'center'}} >MOB</Text>
 </NeumorphismButton>
    {/*shadow drop neomorph switch winches*/}
    <View style={{position:'absolute',top:170,right:80}}>
@@ -181,44 +181,43 @@ switchBorderRadius={14}
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
-  style={{
-    shadowOffset: {width: 10, height: 10},
-    shadowOpacity: 1,
-    shadowColor: "white",
-    shadowRadius: 3,
-    borderRadius: 25,
-    backgroundColor: '#141414',
-    width:144,
-    height:65,
-    
-    // ...include most of View/Layout styles
-  }}
+  style={{shadowOffset: {width: 10, height: 10},
+  shadowOpacity: 1,
+  shadowColor: "white",
+  shadowRadius: 3,
+  borderRadius: 145,
+  backgroundColor: '#141414',
+  width:155,
+  height:65,
+  
+  // ...include most of View/Layout styles
+}}
 >
-  <View style={{top:5,left:6}}>
+<View style={{top:8,left:9}}>
 <Switch
 onValueChange={toggleSwitch3}
 value={isEnabled3}
 disabled={false}
-activeText={'On'}
-inActiveText={'Off'}
+activeText={'ON'}
+inActiveText={'OFF'}
 circleSize={34}
 barHeight={49}
-circleBorderWidth={25}
-circleBorderInactiveColor={'#141414'}
-circleBorderActiveColor={'#141414'}
+circleBorderWidth={27}
+circleBorderInactiveColor={'#181818'}
+circleBorderActiveColor={'#181818'}
 backgroundActive={'#141414'}
 backgroundInactive={'#141414'}
 circleActiveColor={'green'}
 circleInActiveColor={'gray'}
 // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
 changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
-innerCircleStyle={{ width:85,height:60,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+innerCircleStyle={{ width:79,height:59,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
 renderActiveText={true}
 renderInActiveText={true}
 switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
 switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
 switchWidthMultiplier={4} // multiplied by the `circleSize` prop to calculate total width of the Switch
-switchBorderRadius={14}
+switchBorderRadius={26}
 />
 </View>
 </Neomorph>
@@ -235,39 +234,40 @@ switchBorderRadius={14}
     shadowOpacity: 1,
     shadowColor: "white",
     shadowRadius: 3,
-    borderRadius: 25,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:145,
+    width:155,
     height:65,
     
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{top:5,left:6}}>
-<Switch
+  <View style={{top:8,left:9}}>
+  <Switch
 onValueChange={toggleSwitch4}
 value={isEnabled4}
 disabled={false}
-activeText={'On'}
-inActiveText={'Off'}
+activeText={'ON'}
+inActiveText={'OFF'}
 circleSize={34}
-barHeight={48}
-circleBorderWidth={25}
-circleBorderInactiveColor={'#141414'}
-circleBorderActiveColor={'#141414'}
+barHeight={49}
+circleBorderWidth={27}
+circleBorderInactiveColor={'#181818'}
+circleBorderActiveColor={'#181818'}
 backgroundActive={'#141414'}
 backgroundInactive={'#141414'}
 circleActiveColor={'green'}
 circleInActiveColor={'gray'}
 // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
 changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
-innerCircleStyle={{ width:85,height:60,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+innerCircleStyle={{ width:79,height:59,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
 renderActiveText={true}
 renderInActiveText={true}
 switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
 switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
 switchWidthMultiplier={4} // multiplied by the `circleSize` prop to calculate total width of the Switch
-switchBorderRadius={14}/>
+switchBorderRadius={26}
+/>
 </View>
 </Neomorph>
 <Text style={{textAlign:'center',top:8,fontSize:20,color:'white'}}>windlass</Text>
@@ -293,7 +293,7 @@ switchBorderRadius={14}/>
 {/*log 1, log 2, time */}
 <View style={{left:80,marginLeft:"20%",width:"10%",height:"70%",padding:18,flexDirection:'column',borderWidth:0.7,borderColor:'gray',borderRadius:10,top:30}}>
 {/* reset button */}
-<View  style={{position:'absolute',right:160,top:40}}>
+<View  style={{position:'absolute',right:150,top:40}}>
 <TouchableOpacity
 onPress = {() => Alert.alert(
   '',
@@ -306,25 +306,25 @@ onPress = {() => Alert.alert(
 )}
 // onPress = {() => setMyText1("0.0")}
 >  
-<Resetbtn  style={{padding:14}}> 
- <Text style={{color:'white',fontSize:18}}>reset</Text>
+<Resetbtn  style={{padding:12,width:90,borderRadius:40,borderColor:'#000000',borderWidth:4}}> 
+ <Text style={{color:'white',fontSize:22,alignSelf:'center',fontWeight:'bold'}}>reset</Text>
 </Resetbtn>
 </TouchableOpacity>
 </View>
 {/* reset button */}
-<View style={{position:'absolute',right:160,top:180}}>
+<View style={{position:'absolute',right:150,top:180}}>
 <TouchableOpacity
 onPress = {() => Alert.alert(
   '',
   'Are you sure you want to Reset?',  
   [
      {text: 'Cancel', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-     {text: 'OK', onPress: () => setMyText2("0.0")},
+     {text: 'Yes', onPress: () => setMyText2("0.0")},
   ],
   { cancelable: false }
 )}>
-<Resetbtn style={{padding:14}}> 
- <Text style={{color:'white',fontSize:18}} >reset</Text>
+<Resetbtn  style={{padding:12,width:90,borderRadius:40,borderColor:'#000000',borderWidth:4}}> 
+ <Text style={{color:'white',fontSize:22,alignSelf:'center',fontWeight:'bold'}}>reset</Text>
 </Resetbtn>
 </TouchableOpacity>
 </View>
@@ -441,81 +441,81 @@ source={rightrev}
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
   style={{
-    shadowOffset: {width: 3.9, height: 3.9},
+    shadowOffset: {width: 10, height: 10},
     shadowOpacity: 1,
     shadowColor: "white",
-    shadowRadius: 6,
-    borderRadius: 25,
+    shadowRadius: 3,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
-    height:62,
+    width:155,
+    height:65,
+    
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{flexDirection:'row',width:120}}>
-<Text style={{marginLeft:35,marginTop:8,color:'white',alignSelf:'center',fontSize:30}}>97</Text>
-<View style={{ height: '80%',marginTop:8,width: 2,backgroundColor: 'gray',marginLeft:25}}></View>
-<Text style={{marginLeft:10,marginTop:15,color:'white',fontSize:20}}>°C</Text>
+  <View style={{flexDirection:'row',width:138,backgroundColor:'#101010',borderRadius:26,top:8,left:9}}>
+<Text style={{marginLeft:20,marginTop:5,color:'white',alignSelf:'center',fontSize:30}}>97</Text>
+<View style={{ height: '80%',marginTop:5,width: 2,backgroundColor: 'gray',marginLeft:25}}></View>
+<Text style={{marginLeft:10,marginTop:10,color:'white',fontSize:20}}>°C</Text>
 </View>
 </Neomorph>
-<View style={{flexDirection:'column'}}>
+<View style={{flexDirection:'column',left:10}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
   style={{
-    shadowOffset: {width: 3.9, height: 3.9},
+    shadowOffset: {width: 10, height: 10},
     shadowOpacity: 1,
     shadowColor: "white",
-    shadowRadius: 6,
-    borderRadius: 25,
+    shadowRadius: 3,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
-    height:62,
-    marginLeft:15
-      
+    width:155,
+    height:65,
+    
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{flexDirection:'row',width:120}}>
-<Text style={{marginLeft:30,marginTop:8,fontSize:30,color:'white'}}>135</Text>
-<View style={{ height: '80%',marginTop:8,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
-<Text style={{marginLeft:5,marginTop:15,fontSize:20,color:'white'}}>°C</Text>
+  <View style={{flexDirection:'row',width:138,backgroundColor:'#101010',borderRadius:26,top:8,left:9}}>
+<Text style={{marginLeft:20,marginTop:5,fontSize:30,color:'white'}}>135</Text>
+<View style={{ height: '80%',marginTop:5,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
+<Text style={{marginLeft:5,marginTop:10,fontSize:20,color:'white'}}>°C</Text>
 </View>
 </Neomorph>
 <View style={{flexDirection:'row',top:5,left:50}}>
 <Text style={{fontSize:20,color:'white'}}>sea water pump</Text>
-<Image style={{width:10,height:10,alignSelf:'center',left:5}} 
+<Image style={{width:20,height:20,alignSelf:'center',left:5}} 
 source={greenCircle}></Image>
 </View>
 </View>
-<View style={{flexDirection:'column'}}>
+<View style={{flexDirection:'column',left:30}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
   style={{
-    shadowOffset: {width: 3.9, height: 3.9},
+    shadowOffset: {width: 10, height: 10},
     shadowOpacity: 1,
     shadowColor: "white",
-    shadowRadius: 6,
-    borderRadius: 25,
+    shadowRadius: 3,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
-    height:62,
-    left:35
+    width:155,
+    height:65,
+    
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{flexDirection:'row',width:120}}>
-<Text style={{marginLeft:35,marginTop:8,color:'white',fontSize:30}}>3.9</Text>
-<View style={{ height: '80%',marginTop:8,width: 1,backgroundColor: 'gray',marginLeft:20}}></View>
-<Text style={{marginLeft:5,marginTop:15,fontSize:20,color:'white'}}>KW</Text>
+  <View style={{flexDirection:'row',width:138,backgroundColor:'#101010',borderRadius:26,top:8,left:9}}>
+<Text style={{marginLeft:20,marginTop:5,color:'white',fontSize:30}}>3.9</Text>
+<View style={{ height: '80%',marginTop:5,width: 1,backgroundColor: 'gray',marginLeft:20}}></View>
+<Text style={{marginLeft:5,marginTop:10,fontSize:20,color:'white'}}>KW</Text>
 </View>
 </Neomorph>
 <View style={{flexDirection:'row',top:5,left:90}}>
 <Text style={{fontSize:20,color:'white'}}>cooling pump</Text>
-<Image style={{width:10,height:10,alignSelf:'center',left:5}} 
+<Image style={{width:20,height:20,alignSelf:'center',left:5}} 
 source={greenCircle}></Image>
 </View>
 </View>
@@ -524,7 +524,7 @@ source={greenCircle}></Image>
 {/* engine stb and controller tab*/}
 <View style={{flexDirection:'row',justifyContent:'flex-end'}}>
 <Text style={{right:390,fontSize:20,bottom:200,color:'white'}}>engine stb</Text>
-<Text style={{right:230,fontSize:20,bottom:200,color:'white'}}>controller</Text></View>
+<Text style={{right:210,fontSize:20,bottom:200,color:'white'}}>controller</Text></View>
 <View style={{flexDirection:'row',justifyContent:'flex-end',bottom:180,right:200 }}>
 <View style={{flexDirection:'column'}}>
 <Neomorph
@@ -532,59 +532,58 @@ source={greenCircle}></Image>
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
   style={{
-    shadowOffset: {width: 3.9, height: 3.9},
+    shadowOffset: {width: 10, height: 10},
     shadowOpacity: 1,
     shadowColor: "white",
-    shadowRadius: 6,
-    borderRadius: 25,
+    shadowRadius: 3,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
-    height:62,
-    right:35
+    width:155,
+    height:65,
+    
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{flexDirection:'row',width:120}}>
-<Text style={{marginLeft:30,marginTop:8,fontSize:30,color:'white'}}>3.5</Text>
-<View style={{ height: '80%',marginTop:8,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
-<Text style={{marginLeft:5,marginTop:15,fontSize:20,color:'white'}}>kw</Text>
+  <View style={{flexDirection:'row',width:138,backgroundColor:'#101010',borderRadius:26,top:8,left:9}}>
+<Text style={{marginLeft:20,marginTop:5,fontSize:30,color:'white'}}>3.5</Text>
+<View style={{ height: '80%',marginTop:5,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
+<Text style={{marginLeft:5,marginTop:10,fontSize:20,color:'white'}}>kw</Text>
 </View>
 </Neomorph>
 
 <View style={{flexDirection:'row',top:5,right:90}}>
-<Image style={{width:10,height:10,alignSelf:'center',right:10}} 
+<Image style={{width:20,height:20,alignSelf:'center',right:10}} 
 source={greenCircle}></Image>
 <Text style={{fontSize:20,color:'white'}}>cooling pump</Text>
 </View>
 </View>
-<View style={{flexDirection:'column'}}>
+<View style={{flexDirection:'column',left:10}}>
 <Neomorph
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
   style={{
-    shadowOffset: {width: 3.9, height: 3.9},
+    shadowOffset: {width: 10, height: 10},
     shadowOpacity: 1,
     shadowColor: "white",
-    shadowRadius: 6,
-    borderRadius: 25,
+    shadowRadius: 3,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
-    height:62,
-    marginRight:15
-     
+    width:155,
+    height:65,
+    
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{flexDirection:'row',width:120}}>
-<Text style={{marginLeft:30,marginTop:8,fontSize:30,color:'white'}}>135</Text>
-<View style={{ height: '80%',marginTop:8,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
-<Text style={{marginLeft:5,marginTop:15,fontSize:20,color:'white'}}>°C</Text>
+  <View style={{flexDirection:'row',width:138,backgroundColor:'#101010',borderRadius:26,top:8,left:9}}>
+<Text style={{marginLeft:20,marginTop:5,fontSize:30,color:'white'}}>135</Text>
+<View style={{ height: '80%',marginTop:5,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
+<Text style={{marginLeft:5,marginTop:10,fontSize:20,color:'white'}}>°C</Text>
 </View>
 </Neomorph>
 
 <View style={{flexDirection:'row',top:5,right:70}}>
-<Image style={{width:10,height:10,alignSelf:'center',left:5}} 
+<Image style={{width:20,height:20,alignSelf:'center',left:5}} 
 source={greenCircle}></Image>
 <Text style={{color:'white',left:10,fontSize:20}}>sea water pump</Text>
 </View>
@@ -594,22 +593,23 @@ source={greenCircle}></Image>
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
   style={{
-    shadowOffset: {width: 3.9, height: 3.9},
+    shadowOffset: {width: 10, height: 10},
     shadowOpacity: 1,
     shadowColor: "white",
-    shadowRadius: 6,
-    borderRadius: 25,
+    shadowRadius: 3,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:144,
-    height:62,
+    width:155,
+    height:65,
+    left:30
     
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{flexDirection:'row',width:120}}>
-<Text style={{marginLeft:30,marginTop:8,fontSize:30,color:'white'}}>97</Text>
-<View style={{ height: '80%',marginTop:8,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
-<Text style={{marginLeft:5,marginTop:15,fontSize:20,color:'white'}}>KW</Text>
+  <View style={{flexDirection:'row',width:138,backgroundColor:'#101010',borderRadius:26,top:8,left:9}}>
+<Text style={{marginLeft:20,marginTop:5,fontSize:30,color:'white'}}>97</Text>
+<View style={{ height: '80%',marginTop:5,width: 2,backgroundColor: 'gray',marginLeft:20}}></View>
+<Text style={{marginLeft:5,marginTop:10,fontSize:20,color:'white'}}>KW</Text>
 </View>
 </Neomorph>
 </View>
@@ -620,44 +620,44 @@ source={greenCircle}></Image>
   inner // <- enable inner shadow
   darkShadowColor="#141414" // <- set this
   lightShadowColor="#2e2e2e"
-  style={{
-    shadowOffset: {width: 10, height: 10},
-    shadowOpacity: 1,
-    shadowColor: "white",
-    shadowRadius: 3,
-    borderRadius: 25,
-    backgroundColor: '#141414',
-    width:145,
-    height:65,
-    
-    // ...include most of View/Layout styles
-  }}
+  style={{shadowOffset: {width: 10, height: 10},
+  shadowOpacity: 1,
+  shadowColor: "white",
+  shadowRadius: 3,
+  borderRadius: 145,
+  backgroundColor: '#141414',
+  width:155,
+  height:65,
+  
+  // ...include most of View/Layout styles
+}}
 >
-  <View style={{top:5,left:5}}>
+<View style={{top:8,left:9}}>
 <Switch
 onValueChange={toggleSwitch5}
 value={isEnabled5}
 disabled={false}
-activeText={'On'}
-inActiveText={'Off'}
+activeText={'ON'}
+inActiveText={'OFF'}
 circleSize={34}
 barHeight={49}
-circleBorderWidth={25}
-circleBorderInactiveColor={'#141414'}
-circleBorderActiveColor={'#141414'}
+circleBorderWidth={27}
+circleBorderInactiveColor={'#181818'}
+circleBorderActiveColor={'#181818'}
 backgroundActive={'#141414'}
 backgroundInactive={'#141414'}
 circleActiveColor={'green'}
 circleInActiveColor={'gray'}
 // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
 changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
-innerCircleStyle={{ width:85,height:60,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+innerCircleStyle={{ width:79,height:59,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
 renderActiveText={true}
 renderInActiveText={true}
 switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
 switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
 switchWidthMultiplier={4} // multiplied by the `circleSize` prop to calculate total width of the Switch
-switchBorderRadius={14}/>
+switchBorderRadius={26}
+/>
 </View>
 <Text style={{textAlign:'center',color:'white',top:15,fontSize:20}}>generator</Text>
 
@@ -728,40 +728,40 @@ switchBorderRadius={14}/>
     shadowOpacity: 1,
     shadowColor: "white",
     shadowRadius: 3,
-    borderRadius: 25,
+    borderRadius: 145,
     backgroundColor: '#141414',
-    width:145,
+    width:155,
     height:65,
     
     // ...include most of View/Layout styles
   }}
 >
-  <View style={{top:5,left:5}}>
-<Switch
+  <View style={{top:8,left:9}}>
+  <Switch
 onValueChange={toggleSwitch6}
 value={isEnabled6}
 disabled={false}
-activeText={'On'}
-inActiveText={'Off'}
+activeText={'ON'}
+inActiveText={'OFF'}
 circleSize={34}
-barHeight={48}
-circleBorderWidth={25}
-circleBorderInactiveColor={'#141414'}
-circleBorderActiveColor={'#141414'}
+barHeight={49}
+circleBorderWidth={27}
+circleBorderInactiveColor={'#181818'}
+circleBorderActiveColor={'#181818'}
 backgroundActive={'#141414'}
 backgroundInactive={'#141414'}
 circleActiveColor={'green'}
 circleInActiveColor={'gray'}
 // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
 changeValueImmediately={true} // if rendering inside circle, change state immediately or wait for animation to complete
-innerCircleStyle={{ width:85,height:60,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
+innerCircleStyle={{ width:79,height:59,alignItems: "center", justifyContent: "center" }} // style for inner animated circle for what you (may) be rendering inside the circle
 renderActiveText={true}
 renderInActiveText={true}
 switchLeftPx={2} // denominator for logic when sliding to TRUE position. Higher number = more space from RIGHT of the circle to END of the slider
 switchRightPx={2} // denominator for logic when sliding to FALSE position. Higher number = more space from LEFT of the circle to BEGINNING of the slider
 switchWidthMultiplier={4} // multiplied by the `circleSize` prop to calculate total width of the Switch
-switchBorderRadius={14}/>
-
+switchBorderRadius={26}
+/>
 </View>
   <Text style={{textAlign:'center',top:18,fontSize:18,color:'white'}}>capstan winches</Text>
 </Neomorph>
@@ -772,27 +772,15 @@ switchBorderRadius={14}/>
 <View  style={{flexDirection:'row',bottom:100,left:80}}>
 {/* start btn */}
 <View style={{flexDirection:'row'}}>
-<TouchableOpacity style={{
-    borderRadius: 15,
-    backgroundColor:bgColor1,alignSelf:'center',
-    padding:2,
-    width:"15%",
-    }}
-onPress = {() => setBoth1()}
->  
- 
- <Text style={{fontSize:25,color:'white',backgroundColor:'#222222',borderColor:'black',textAlign:'center',padding:8,borderRadius:25}} >start</Text>
-</TouchableOpacity>
+<Resetbtn  style={{padding:12,width:80,borderRadius:40,borderColor:bgColor1,borderWidth:5}}> 
+ <Text style={{color:'white',fontSize:22,alignSelf:'center',fontWeight:'bold'}}
+ onPress = {() => setBoth1()}>start</Text>
+</Resetbtn>
 {/* stop btn */}
-<TouchableOpacity style={{left:10,
-    borderRadius: 15,
-    padding:2,
-    backgroundColor:bgColor2,
-  width:"15%"}}
-onPress = {() => setBoth2()}>  
-
-<Text style={{fontSize:25,color:'white',backgroundColor:'#222222',borderColor:'black',textAlign:'center',padding:8,borderRadius:25}} >stop</Text>
-</TouchableOpacity>
+<Resetbtn  style={{padding:12,width:80,borderRadius:40,borderColor:bgColor2,borderWidth:5,left:5}}> 
+ <Text style={{color:'white',fontSize:22,alignSelf:'center',fontWeight:'bold'}}
+ onPress = {() => setBoth2()}>stop</Text>
+</Resetbtn>
 </View>
 
 </View>

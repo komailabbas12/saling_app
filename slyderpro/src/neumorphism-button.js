@@ -62,26 +62,25 @@ const styles = StyleSheet.create({
   buttonOuter: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    borderRadius: 12,
+    borderRadius: 30,
     shadowOffset: {width: 12, height: 12},
-    shadowColor: '#8b0000',
+    shadowColor: '#ffffff',
     shadowOpacity: 1.0,
     shadowRadius: 18,
     marginTop: 12,
-    backgroundColor:'#8b0000',
-    padding:3,
+    padding:1.8,
     marginBottom: 12,
   },
   buttonInner: {
-    backgroundColor: '#55b9f3',
-    borderRadius: 12,
+
+    borderRadius: 30,
     shadowOffset: {width: -12, height: -12},
     shadowColor: '#8b0000',
     shadowOpacity: 1.0,
     shadowRadius: 18,
   },
   buttonFace: {
-    borderRadius: 12,
+    borderRadius: 30,
     padding: 12,
   },
 });

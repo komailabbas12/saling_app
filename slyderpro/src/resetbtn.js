@@ -67,7 +67,6 @@ const styles = StyleSheet.create({
     shadowRadius: 18,
     marginTop: 12,
     padding:1.8,
-    backgroundColor:'#000000',
     marginBottom: 12,
   },
   buttonInner: {
