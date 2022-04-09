@@ -1,4 +1,7 @@
-#Mon Apr 04 01:16:01 PDT 2022
+#Fri Apr 08 04:25:55 PDT 2022
+base.1=C\:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.1=classes.dex
 base.0=C\:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

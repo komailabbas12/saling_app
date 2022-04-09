@@ -1,70 +1,102 @@
 [
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_greencircle.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_greencircle.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_boat.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_boat.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxhdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_compass_bg.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_compass_bg.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_rightrevs.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_rightrevs.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_greencircle.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_greencircle.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_rn_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\drawable\\rn_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_boat.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_boat.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-xhdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_rn_edit_text_material.xml.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\drawable\\rn_edit_text_material.xml"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_rightrevs.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_rightrevs.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_slyderlogo.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_slyderlogo.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_leftrevs.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_leftrevs.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_compasscircle.png.flat",
-        "source": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_compasscircle.png"
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-xxxhdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_leftrevs.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_leftrevs.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_yellowtriangle.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_yellowtriangle.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_graytriangle.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_graytriangle.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-hdpi\\node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_images_compasscircle.png.flat",
+        "source": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\images_compasscircle.png"
     }
 ]

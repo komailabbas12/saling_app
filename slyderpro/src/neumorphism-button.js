@@ -14,7 +14,7 @@ const NeumorphismButton = props => {
     setDown(false);
   }, [setDown]);
 
-  const gradColors = isDown ? ['#000000', '#616161'] : ['#616161', '#000000'];
+  const gradColors = isDown ? ['#000000', '#616161'] : ['#414141', '#000000'];
   const buttonCommonStyle = {
     borderRadius: size,
     shadowRadius: size * 1.5,
@@ -36,8 +36,8 @@ const NeumorphismButton = props => {
     <TouchableWithoutFeedback
       onPressIn={handlePressIn}
       onPressOut={handlePressOut}>
-      <View style={[styles.buttonOuter, buttonCommonStyle, buttonOuterStyle]}>
-        <View style={[styles.buttonInner, buttonCommonStyle, buttonInnerStyle]}>
+      <View  style={[styles.buttonOuter, buttonCommonStyle, buttonOuterStyle]}>
+        <View  style={[styles.buttonInner, buttonCommonStyle, buttonInnerStyle]}>
           <LinearGradient
             colors={gradColors}
             useAngle={true}
@@ -72,10 +72,9 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   buttonInner: {
-
     borderRadius: 30,
     shadowOffset: {width: -12, height: -12},
-    shadowColor: '#8b0000',
+    shadowColor: '#ffffff',
     shadowOpacity: 1.0,
     shadowRadius: 18,
   },

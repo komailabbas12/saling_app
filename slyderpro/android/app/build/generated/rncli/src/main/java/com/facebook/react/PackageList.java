@@ -13,12 +13,20 @@ import java.util.ArrayList;
 
 // @react-native-community/art
 import com.reactnativecommunity.art.ARTPackage;
+// @react-native-community/masked-view
+import org.reactnative.maskedview.RNCMaskedViewPackage;
 // react-native-compass-heading
 import com.reactlibrary.compassheading.CompassHeadingPackage;
+// react-native-gesture-handler
+import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-linear-gradient
 import com.BV.LinearGradient.LinearGradientPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-screens
+import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-sensors
 import com.sensors.RNSensorsPackage;
 // react-native-svg
@@ -69,9 +77,13 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new ARTPackage(),
+      new RNCMaskedViewPackage(),
       new CompassHeadingPackage(),
+      new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
       new ReanimatedPackage(),
+      new SafeAreaContextPackage(),
+      new RNScreensPackage(),
       new RNSensorsPackage(),
       new SvgPackage()
     ));

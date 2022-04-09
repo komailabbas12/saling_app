@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Yasir Jamil\\Downloads\\saling_app-dev\\saling_app-dev\\slyderpro\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\Yasir Jamil\\Downloads\\slyderpro\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yasir Jamil\\.gradle\\caches\\transforms-3\\2ef1001600cb456b29521c8effed39f3\\transformed\\appcompat-1.3.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Yasir Jamil\\.gradle\\caches\\transforms-3\\255a6984e5956ea6334a61bd7697012a\\transformed\\core-1.5.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "source": "C:\\Users\\Yasir Jamil\\.gradle\\caches\\transforms-3\\4d121ce060dce599e8abdc01d210a831\\transformed\\core-1.6.0\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
