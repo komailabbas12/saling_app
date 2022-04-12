@@ -10,7 +10,7 @@ export default function ScaleComparing(props) {
                 <Text style={{
                     fontSize: 35,
 
-                    color: "#92FD31",
+                    color: props.fill == '47%' ? "#F8E81E" : "#92FD31",
                     marginLeft: 16,
                     textAlign: "center"
                 }}>{props.fill}</Text>
@@ -31,14 +31,14 @@ export default function ScaleComparing(props) {
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item, index) => {
                         return (
                             <View
-                            key={index}
-                            style={{
-                                height:5.5,
-                                width:30,
-                                flexDirection:"row-reverse"
-                            }}>
+                                key={index}
+                                style={{
+                                    height: 5.5,
+                                    width: 30,
+                                    flexDirection: "row-reverse"
+                                }}>
                                 <Neomorph
-                                  
+
                                     inner // <- enable inner shadow
                                     darkShadowColor="#4C4C4C" // <- set this
                                     lightShadowColor="#4C4C4C"
@@ -53,7 +53,7 @@ export default function ScaleComparing(props) {
                                         height: 5.5,
                                     }}
                                 >
-                                    <View style={{ width: index == 0 || index == 10 || index == 5 ? 30 : 26, height: 3.5, backgroundColor: '#000', borderRadius: 100,  }} />
+                                    <View style={{ width: index == 0 || index == 10 || index == 5 ? 30 : 26, height: 3.5, backgroundColor: '#000', borderRadius: 100, }} />
                                 </Neomorph>
                             </View>
 
@@ -62,15 +62,15 @@ export default function ScaleComparing(props) {
                 </View>
                 <Neomorph
                     inner={true} // <- enable inner shadow
-                    darkShadowColor="#141414" // <- set this
-                    lightShadowColor="#2e2e2e"
+                    darkShadowColor="#242424" // <- set this
+                    lightShadowColor="#222222"
                     style={{
-                        shadowOffset: { width: 12, height: 12 },
-                        shadowOpacity: 1,
-                        shadowColor: "white",
+                        shadowOffset: { width: 1, height: 5 },
+                        shadowOpacity: 9,
+                        shadowColor: "#00000029",
                         shadowRadius: 3,
                         borderRadius: 200,
-                        backgroundColor: '#1B1B1B',
+                        backgroundColor: '#504D4A',
                         width: 55,
                         height: 420,
                         justifyContent: "center"
@@ -78,10 +78,10 @@ export default function ScaleComparing(props) {
                         // ...include most of View/Layout styles
                     }}
                 >
-                    <View style={{ flexDirection: 'row', width: 35, backgroundColor: '#2E2D2D', borderRadius: 100, height: 400, alignSelf: 'center', elevation: 30 }}>
-                        <View style={{ width: "100%", height: props.fill, backgroundColor: "#D66717", borderRadius: 12, alignSelf: "flex-end" }} />
+                <View style={{ flexDirection: 'row', width: 35, backgroundColor: '#2E2D2D', borderRadius: 100, height: 400, alignSelf: 'center', elevation: 30 }}>
+                    <View style={{ width: "100%", height: props.fill, backgroundColor: "#D66717", borderRadius: 12, alignSelf: "flex-end" }} />
 
-                    </View>
+                </View>
 
                 </Neomorph>
 

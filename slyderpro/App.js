@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import WelcomeScreen from './screens/WelcomeScreen';
 import UnderEngine from './screens/UnderEngine';
 import Status from './screens/Status';
+import Electric from './screens/Electric';
 
 
 const Tab = createBottomTabNavigator();
@@ -44,6 +45,7 @@ export default function App() {
         <Tab.Screen name="Welcome" component={WelcomeScreen} options={{ headerShown: false }} />
         <Tab.Screen name="Under Engine" component={UnderEngine} options={{ headerShown: false }} />
         <Tab.Screen name="Status" component={Status} options={{ headerShown: false }} />
+        <Tab.Screen name="Electric" component={Electric} options={{ headerShown: false }} />
       </Tab.Navigator>
     </NavigationContainer>
   );
