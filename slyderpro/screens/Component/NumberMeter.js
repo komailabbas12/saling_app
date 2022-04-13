@@ -5,7 +5,7 @@ import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
 
 
 
-export default function NumberMeter({number , skill}) {
+export default function NumberMeter({ number, skill, width }) {
     return (
         <Neomorph
             inner={true}// <- enable inner shadow
@@ -18,41 +18,41 @@ export default function NumberMeter({number , skill}) {
                 shadowRadius: 3,
                 borderRadius: 145,
                 backgroundColor: '#141414',
-                width: 140,
+                width: width,
                 height: 65,
-                justifyContent:'center',
-                alignItems:"center"
-               
+                justifyContent: 'center',
+                alignItems: "center"
+
 
                 // ...include most of View/Layout styles
             }}
         >
-            <View style={{ flexDirection: 'row', width: 120, backgroundColor: '#101010', height:50 , borderRadius:100}}>
-                    <View style={{
-                        width:"70%",
-                    
-                        justifyContent:"center",
-                        alignItems:"center",
-                        alignSelf:"center",
-                        height:40,
-                        borderRightWidth:1,
-                        borderColor:"#B1B1B"
-                      
-                    }}>
+            <View style={{ flexDirection: 'row', width: width - 20, backgroundColor: '#101010', height: 50, borderRadius: 100 }}>
+                <View style={{
+                    width: "70%",
+
+                    justifyContent: "center",
+                    alignItems: "center",
+                    alignSelf: "center",
+                    height: 40,
+                    borderRightWidth: 1,
+                    borderColor: "#B1B1B"
+
+                }}>
                     <Text numberOfLines={1} style={{ fontSize: 24, color: '#B1B1B1' }}>{number}</Text>
-                    </View>
-                
-                
-                    <View style={{
-                        width:'30%',
-                        justifyContent:"center",
-                        alignItems:"center"
-                    
-                    
-                    }}>
-                    <Text style={{  fontSize: 16, color: '#B1B1B1' }}>{skill}</Text>
-                    </View>
-               
+                </View>
+
+
+                <View style={{
+                    width: '30%',
+                    justifyContent: "center",
+                    alignItems: "center"
+
+
+                }}>
+                    <Text style={{ fontSize: 16, color: '#B1B1B1' }}>{skill}</Text>
+                </View>
+
             </View>
         </Neomorph>
 
