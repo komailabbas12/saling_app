@@ -31,6 +31,8 @@ import com.swmansion.rnscreens.RNScreensPackage;
 import com.sensors.RNSensorsPackage;
 // react-native-svg
 import com.horcrux.svg.SvgPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -85,7 +87,8 @@ public class PackageList {
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
       new RNSensorsPackage(),
-      new SvgPackage()
+      new SvgPackage(),
+      new VectorIconsPackage()
     ));
   }
 }

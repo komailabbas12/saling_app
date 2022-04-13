@@ -17,6 +17,7 @@ MERGED from [:react-native-safe-area-context] C:\Users\Yasir Jamil\Downloads\sly
 MERGED from [:react-native-screens] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-sensors] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-sensors\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-svg] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Yasir Jamil\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-linear-gradient] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Yasir Jamil\.gradle\caches\transforms-3\1012d987f6eb0f412cbfb4b1ca7cec1a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -190,6 +191,8 @@ MERGED from [:react-native-sensors] C:\Users\Yasir Jamil\Downloads\slyderpro\nod
 MERGED from [:react-native-sensors] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-sensors\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-svg] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-svg] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Yasir Jamil\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\Yasir Jamil\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-linear-gradient] C:\Users\Yasir Jamil\Downloads\slyderpro\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41

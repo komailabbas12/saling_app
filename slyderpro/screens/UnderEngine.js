@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import {View, Text,ScrollView,Image,TouchableOpacity,Alert,StyleSheet,StatusBar } from  'react-native';
+import {View, Text,ScrollView,Image,TouchableOpacity,Alert,StyleSheet,StatusBar,AsyncStorage,Animated } from  'react-native';
 import NeumorphismButton from '../src/neumorphism-button'
 import Resetbtn from '../src/resetbtn'
 import { Switch } from 'react-native-switch';
@@ -10,11 +10,57 @@ import centerCompass from '../images/compasscircle.png';
 import boat from '../images/boat.png';
 import leftrev from '../images/leftrevs.png';
 import rightrev from '../images/rightrevs.png';
+import LinearGradient from 'react-native-linear-gradient';
+import init from 'react_native_mqtt';
+
+init({
+  size: 10000,
+  storageBackend: AsyncStorage,
+  defaultExpires: 1000 * 3600 * 24,
+  enableCache: true,
+  sync: {},
+});
+var tboxServer = "canmatic.de";
+var tboxPort = 1884;
+var tboxTopic = "boat/control";
+var client = new Paho.MQTT.Client(tboxServer, Number(tboxPort), "GMM  - Control");
+client.connect({ onSuccess: onConnect });
+function onConnect() {
+  console.log("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCConnect")
+  client.subscribe(tboxTopic);
+}
+var num =0;
+var lastDigit =0;
+function UnderEngine (props){
 
 
-function UnderEngine (){
+  client.onMessageArrived = onMessageArrived;
+  // client.onConnectionLost = this.onConnectionLost;
 
-    
+  function onMessageArrived(theMessage) {
+    // console.log("onMessageArrived:" + theMessage.destinationName, theMessage.payloadString);
+    const split = theMessage.payloadString.split(';')
+    console.log(split[0], split[1])
+    if (split[0] == 'nav' && split[1] == 'compass') {
+      setrightside(split[2])
+      setleftside(split[3])
+      console.log(split[4], 'yasirjamil')
+      setCompassHeading1(split[4])
+      num = split[4];
+      lastDigit = num.toString().slice(-2);
+      console.log(lastDigit , 'xyz')    
+    }
+
+    // this.setState({ message: [...this.state.message, entry.payloadString] });
+
+  }
+
+  const [compassHeading1, setCompassHeading1] = useState(0);
+ 
+  
+  const [rightSide, setrightside] = useState(0)
+  const [leftside, setleftside] = useState(0)
+
     const [isEnabled1, setIsEnabled1] = useState(false);
     const toggleSwitch1 = () => setIsEnabled1(previousState => !previousState);
 
@@ -50,27 +96,11 @@ function UnderEngine (){
       setBgColor1('#3e3e3e');
       setBgColor2('red');
     };
-
-
-    const [compassHeading, setCompassHeading] = useState(0);
-
-    useEffect(() => {
-      const degree_update_rate = 3;
-  
-      // accuracy on android will be hardcoded to 1
-      // since the value is not available.
-      // For iOS, it is in degrees
-      CompassHeading.start(degree_update_rate, ({heading, accuracy}) => {
-        setCompassHeading(heading, accuracy);
-      });
-  
-      return () => {
-        CompassHeading.stop();
-      };
-    }, []);
 return(    
   
-<View style={{backgroundColor:'#242424'}}>
+<View style={{}}>
+<LinearGradient
+      colors={['#0F0F0F', '#3E4345', '#202427']}>
 <StatusBar hidden />
   {/* <ScrollView> */}
     {/*shadow drop neomorph switch equipment*/}
@@ -379,15 +409,15 @@ onPress = {() => Alert.alert(
 </View>
 </View>
 </View>
-<Image
+<Animated.Image
       style={[
         styles.image,
-        {transform: [{rotate: `${360 - compassHeading}deg`}]},
+        {transform: [{rotate: `${lastDigit}deg`}]},
       ]}
       resizeMode="contain"
       source={centerCompass}
-    >
-    </Image>
+    />
+
     <Image style={{position:'absolute',top:270}}
 source={boat}
 ></Image>
@@ -396,13 +426,13 @@ style={{position:'absolute',top:380,left:110,}}
 source={leftrev}
 > 
 </Image>
-<Text style={{position:'absolute',color:'white',top:420,fontSize:50,left:155}}>1270</Text>
+<Text style={{position:'absolute',color:'white',top:420,fontSize:40,left:155}}>{leftside}</Text>
 <Image
 style={{position:'absolute',top:380,right:110,}}
 source={rightrev}
 > 
 </Image>
-<Text style={{position:'absolute',color:'white',top:420,fontSize:50,right:155}}>1350</Text>
+<Text style={{position:'absolute',color:'white',top:420,fontSize:40,right:155}}>{rightSide}</Text>
 </View>
 
 {/* dtw, ttw, eta */}
@@ -793,6 +823,7 @@ switchBorderRadius={26}
 
 {/* <View style={{height:2}} /> */}
 {/* </ScrollView> */}
+</LinearGradient>
 </View>
 )
 }
