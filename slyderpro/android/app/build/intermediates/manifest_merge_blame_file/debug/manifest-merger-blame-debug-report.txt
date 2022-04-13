@@ -17,54 +17,65 @@
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\2c1341a397a21cba19b421fbfdab7e35\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\2c1341a397a21cba19b421fbfdab7e35\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
-14
-15    <application
-15-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:6:5-25:19
-16        android:name="com.slyderpro.MainApplication"
-16-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:7:7-38
-17        android:allowBackup="false"
-17-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:11:7-34
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\4d121ce060dce599e8abdc01d210a831\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:9:7-41
-21        android:label="@string/app_name"
-21-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:8:7-39
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:10:7-52
-23        android:theme="@style/AppTheme"
-23-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:12:7-38
-24        android:usesCleartextTraffic="true" >
-24-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\debug\AndroidManifest.xml:8:9-44
-25        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-25-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\debug\AndroidManifest.xml:11:9-86
-25-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\debug\AndroidManifest.xml:11:19-83
-26        <activity
-26-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:13:7-24:18
-27            android:name="com.slyderpro.MainActivity"
-27-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:14:9-37
-28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-28-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:17:9-86
-29            android:label="@string/app_name"
-29-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:15:9-41
-30            android:launchMode="singleTask"
-30-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:18:9-40
-31            android:screenOrientation="landscape"
-31-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:16:11-48
-32            android:windowSoftInputMode="adjustResize" >
-32-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:19:9-51
-33            <intent-filter>
-33-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:20:9-23:25
-34                <action android:name="android.intent.action.MAIN" />
-34-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:21:13-65
-34-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:21:21-62
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:22:13-73
-36-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:22:23-70
-37            </intent-filter>
-38        </activity>
-39    </application>
-40
-41</manifest>
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+14-->[:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+15-->[:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+16
+17    <application
+17-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:6:5-25:19
+18        android:name="com.slyderpro.MainApplication"
+18-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\4d121ce060dce599e8abdc01d210a831\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\debug\AndroidManifest.xml:8:9-44
+27        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+27-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\debug\AndroidManifest.xml:11:9-86
+27-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\debug\AndroidManifest.xml:11:19-83
+28        <activity
+28-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:13:7-24:18
+29            android:name="com.slyderpro.MainActivity"
+29-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:17:9-86
+31            android:label="@string/app_name"
+31-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:18:9-40
+33            android:screenOrientation="landscape"
+33-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:16:11-48
+34            android:windowSoftInputMode="adjustResize" >
+34-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:19:9-51
+35            <intent-filter>
+35-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:20:9-23:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:21:13-65
+36-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:21:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:22:13-73
+38-->D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:22:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <service android:name="org.eclipse.paho.android.service.MqttService" >
+42-->[:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-17:19
+42-->[:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-77
+43        </service>
+44    </application>
+45
+46</manifest>

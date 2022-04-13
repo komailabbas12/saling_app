@@ -19,7 +19,7 @@ export default function Electric() {
                 flex: 1,
                 flexDirection: "row",
                 paddingVertical: 55,
-                backgroundColor: "#363B3C"
+                // backgroundColor: "#363B3C"
             }}>
                 <View style={{
                     width: "50%",
@@ -28,7 +28,7 @@ export default function Electric() {
                 }}>
                     <View style={{
                         flexDirection: "row",
-                        justifyContent:"center"
+                        justifyContent: "center"
                     }}>
                         <View style={{
                             justifyContent: "center"
@@ -127,13 +127,57 @@ export default function Electric() {
                     </View>
 
                     <View style={{
-                        width:"30%",
-                        height:270,
-                        // backgroundColor:"red",
-                        marginVertical:32,
-                        marginHorizontal:32,
-                        justifyContent:"flex-end"
+                        flex: 1,
+                       marginVertical:32,
+                       marginRight:90
                     }}>
+                        <View style={{
+                            width:"40%",
+                            height:'53%',
+                            // backgroundColor:"red",
+                           alignSelf:"flex-end",
+                           padding:14
+                        }}>
+                            <View style={{
+                                flexDirection:'row',
+                                justifyContent:'space-between',
+                                marginTop:"4%"
+                            }}>
+                                 <NumberMeter number={123} skill="A" />
+                                 <NumberMeter number={123} skill="A" />
+
+                            </View>
+                            <View style={{
+                                flexDirection:'row',
+                                justifyContent:'space-between',
+                                marginTop:"4%"
+                            }}>
+                                 <NumberMeter number={123} skill="A" />
+                                 <NumberMeter number={123} skill="A" />
+
+                            </View>
+                            <View style={{
+                                flexDirection:'row',
+                                justifyContent:'space-between',
+                                marginTop:"8%"
+                            }}>
+                                 <NumberMeter number={123} skill="A" />
+                                 <NumberMeter number={123} skill="A" />
+
+                            </View>
+
+                        </View>
+                        <View style={{ flex:1 , marginTop:'3%' , marginLeft:"17%" , backgroundColor:"rgba(255,255,255,0.4)" , marginRight:'9%' , flexDirection:"row" , justifyContent:"space-between"}}>
+                            <View style={{
+                                height:"100%",
+                                width:"35%",
+                                
+                                borderRadius:100
+                            }}>
+
+                            </View>
+
+                        </View>
 
                     </View>
 
@@ -167,7 +211,7 @@ export default function Electric() {
                 <View style={{
                     width: "50%",
                     height: "100%",
-                    backgroundColor: "red",
+                   
 
                 }}>
 

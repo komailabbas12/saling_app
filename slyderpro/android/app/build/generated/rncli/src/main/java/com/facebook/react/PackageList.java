@@ -33,6 +33,8 @@ import com.sensors.RNSensorsPackage;
 import com.horcrux.svg.SvgPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
+// sp-react-native-mqtt
+import com.tuanpm.RCTMqtt.RCTMqttPackage;
 
 public class PackageList {
   private Application application;
@@ -88,7 +90,8 @@ public class PackageList {
       new RNScreensPackage(),
       new RNSensorsPackage(),
       new SvgPackage(),
-      new VectorIconsPackage()
+      new VectorIconsPackage(),
+      new RCTMqttPackage()
     ));
   }
 }

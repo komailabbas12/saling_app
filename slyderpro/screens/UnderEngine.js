@@ -1,22 +1,63 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity, Alert, StyleSheet, StatusBar } from 'react-native';
-import NeumorphismButton from '../src/neumorphism-button'
-import Resetbtn from '../src/resetbtn'
-import { Switch } from 'react-native-switch';
-import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
-import greenCircle from '../images/greencircle.png';
+import React, { useEffect, useState } from 'react';
+import { Alert, Image, StatusBar, StyleSheet, Text, TouchableOpacity, View, AsyncStorage } from 'react-native';
 import CompassHeading from 'react-native-compass-heading';
-import centerCompass from '../images/compasscircle.png';
+import { Neomorph } from 'react-native-neomorph-shadows';
+import { Switch } from 'react-native-switch';
 import boat from '../images/boat.png';
+import centerCompass from '../images/compasscircle.png';
+import greenCircle from '../images/greencircle.png';
 import leftrev from '../images/leftrevs.png';
 import rightrev from '../images/rightrevs.png';
+import NeumorphismButton from '../src/neumorphism-button';
+import Resetbtn from '../src/resetbtn';
+import init from 'react_native_mqtt';
+
+init({
+  size: 10000,
+  storageBackend: AsyncStorage,
+  defaultExpires: 1000 * 3600 * 24,
+  enableCache: true,
+  sync: {},
+});
+var tboxServer = "canmatic.de";
+var tboxPort = 1884;
+var tboxTopic = "boat/control";
+var client = new Paho.MQTT.Client(tboxServer, Number(tboxPort), "GMM  - Control");
+client.connect({ onSuccess: onConnect });
+function onConnect() {
+  console.log("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCConnect")
+  client.subscribe(tboxTopic);
+}
 
 
-function UnderEngine() {
+
+
+
+
+function UnderEngine(props) {
+
+  client.onMessageArrived = onMessageArrived;
+  // client.onConnectionLost = this.onConnectionLost;
+
+  function onMessageArrived(theMessage) {
+    // console.log("onMessageArrived:" + theMessage.destinationName, theMessage.payloadString);
+    const split = theMessage.payloadString.split(';')
+    console.log(split[0], split[1])
+    if (split[0] == 'nav' && split[1] == 'compass') {
+      setrightside(split[2])
+      setleftside(split[3])
+
+    }
+
+    // this.setState({ message: [...this.state.message, entry.payloadString] });
+
+  }
 
 
   const [isEnabled1, setIsEnabled1] = useState(false);
   const toggleSwitch1 = () => setIsEnabled1(previousState => !previousState);
+  const [rightSide, setrightside] = useState(0)
+  const [leftside, setleftside] = useState(0)
 
   const [isEnabled2, setIsEnabled2] = useState(false);
   const toggleSwitch2 = () => setIsEnabled2(previousState => !previousState);
@@ -55,6 +96,7 @@ function UnderEngine() {
   const [compassHeading, setCompassHeading] = useState(0);
 
   useEffect(() => {
+
     const degree_update_rate = 3;
 
     // accuracy on android will be hardcoded to 1
@@ -68,6 +110,8 @@ function UnderEngine() {
       CompassHeading.stop();
     };
   }, []);
+
+
   return (
 
     <View style={{ backgroundColor: '#242424' }}>
@@ -398,13 +442,13 @@ function UnderEngine() {
             source={leftrev}
           >
           </Image>
-          <Text style={{ position: 'absolute', color: 'white', top: 420, fontSize: 50, left: 155 }}>1270</Text>
+          <Text style={{ position: 'absolute', color: 'white', top: 420, fontSize: 50, left: 155 }}>{rightSide}</Text>
           <Image
             style={{ position: 'absolute', top: 380, right: 110, }}
             source={rightrev}
           >
           </Image>
-          <Text style={{ position: 'absolute', color: 'white', top: 420, fontSize: 50, right: 155 }}>1350</Text>
+          <Text style={{ position: 'absolute', color: 'white', top: 420, fontSize: 50, right: 155 }}>{leftside}</Text>
         </View>
 
         {/* dtw, ttw, eta */}

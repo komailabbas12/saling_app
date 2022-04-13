@@ -18,6 +18,7 @@ export default function App() {
       <Tab.Navigator
 
         screenOptions={({ route }) => ({
+          lazy: true,
           tabBarStyle: {
             backgroundColor: '#242424',
             height: 70,

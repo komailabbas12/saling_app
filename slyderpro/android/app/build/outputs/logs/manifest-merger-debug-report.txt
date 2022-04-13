@@ -18,6 +18,7 @@ MERGED from [:react-native-screens] D:\C plus\Mobile App\saling_app\slyderpro\no
 MERGED from [:react-native-sensors] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-sensors\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-svg] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\abbas\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-linear-gradient] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\abbas\.gradle\caches\transforms-3\1012d987f6eb0f412cbfb4b1ca7cec1a\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -97,12 +98,16 @@ uses-permission#android.permission.INTERNET
 ADDED from D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\2c1341a397a21cba19b421fbfdab7e35\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\2c1341a397a21cba19b421fbfdab7e35\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:15:5-67
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from D:\C plus\Mobile App\saling_app\slyderpro\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:19
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:19
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\abbas\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\abbas\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\abbas\.gradle\caches\transforms-3\15d67df242b705a7d9ac3d44d07b0707\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
@@ -193,6 +198,8 @@ MERGED from [:react-native-svg] D:\C plus\Mobile App\saling_app\slyderpro\node_m
 MERGED from [:react-native-svg] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\abbas\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.4] C:\Users\abbas\.gradle\caches\transforms-3\24093a65acb374efc431d57e23ec90e7\transformed\jetified-react-native-0.67.4\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-linear-gradient] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -323,3 +330,15 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\2c1341a397a21cba19b421fbfdab7e35\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\2c1341a397a21cba19b421fbfdab7e35\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+service#org.eclipse.paho.android.service.MqttService
+ADDED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-17:19
+	android:name
+		ADDED from [:sp-react-native-mqtt] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\sp-react-native-mqtt\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-77
