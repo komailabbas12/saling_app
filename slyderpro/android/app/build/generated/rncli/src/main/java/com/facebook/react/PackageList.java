@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 // @react-native-community/art
 import com.reactnativecommunity.art.ARTPackage;
+// @react-native-community/blur
+import com.cmcewen.blurview.BlurViewPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
 // react-native-compass-heading
@@ -81,6 +83,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new ARTPackage(),
+      new BlurViewPackage(),
       new RNCMaskedViewPackage(),
       new CompassHeadingPackage(),
       new RNGestureHandlerPackage(),

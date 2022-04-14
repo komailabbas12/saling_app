@@ -9,6 +9,7 @@ MERGED from [com.facebook.flipper:flipper:0.99.0] C:\Users\abbas\.gradle\caches\
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\16a7dde8610f12d15641f9f986e8d104\transformed\jetified-flipper-network-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\7ac62fe06b8abd9abd523348bf073580\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-community_art] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\art\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_blur] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\blur\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-community_masked-view] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-compass-heading] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-compass-heading\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -47,6 +48,7 @@ MERGED from [com.facebook.fresco:ui-common:2.5.0] C:\Users\abbas\.gradle\caches\
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\abbas\.gradle\caches\transforms-3\6a2cd94035b9526cb0042233941b4338\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\abbas\.gradle\caches\transforms-3\da86c7aaf677112b983e1b54a592d20a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\abbas\.gradle\caches\transforms-3\3e9dbd03be56468d3ddb61a977ed0814\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.Dimezis:BlurView:version-1.6.6] C:\Users\abbas\.gradle\caches\transforms-3\c09a9e590a478c8db048529a43421fdd\transformed\jetified-BlurView-version-1.6.6\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\fcf2db5f5eaa04bc33b7a62bf5aa21f3\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\abbas\.gradle\caches\transforms-3\4051165ad2084d6c9fd42cdc4ecf7036\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\abbas\.gradle\caches\transforms-3\2c6e0baba9d24acee5f354f7d3a0f53a\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -114,6 +116,8 @@ MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\abbas\.gradle\cache
 MERGED from [com.facebook.soloader:soloader:0.10.1] C:\Users\abbas\.gradle\caches\transforms-3\15d67df242b705a7d9ac3d44d07b0707\transformed\jetified-soloader-0.10.1\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\abbas\.gradle\caches\transforms-3\f504eeef9b37cca189de47ad265a4693\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\abbas\.gradle\caches\transforms-3\f504eeef9b37cca189de47ad265a4693\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.github.Dimezis:BlurView:version-1.6.6] C:\Users\abbas\.gradle\caches\transforms-3\c09a9e590a478c8db048529a43421fdd\transformed\jetified-BlurView-version-1.6.6\AndroidManifest.xml:9:5-20
+MERGED from [com.github.Dimezis:BlurView:version-1.6.6] C:\Users\abbas\.gradle\caches\transforms-3\c09a9e590a478c8db048529a43421fdd\transformed\jetified-BlurView-version-1.6.6\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\4d121ce060dce599e8abdc01d210a831\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\4d121ce060dce599e8abdc01d210a831\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\abbas\.gradle\caches\transforms-3\88c4b67f6b42997b8de247fb3284710e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -180,6 +184,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\abbas\.
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] C:\Users\abbas\.gradle\caches\transforms-3\7ac62fe06b8abd9abd523348bf073580\transformed\jetified-flipper-fresco-plugin-0.99.0\AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-community_art] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\art\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_art] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\art\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_blur] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\blur\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_blur] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\blur\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-community_masked-view] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-compass-heading] D:\C plus\Mobile App\saling_app\slyderpro\node_modules\react-native-compass-heading\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
@@ -256,6 +262,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\abb
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\abbas\.gradle\caches\transforms-3\da86c7aaf677112b983e1b54a592d20a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\abbas\.gradle\caches\transforms-3\3e9dbd03be56468d3ddb61a977ed0814\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\abbas\.gradle\caches\transforms-3\3e9dbd03be56468d3ddb61a977ed0814\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.Dimezis:BlurView:version-1.6.6] C:\Users\abbas\.gradle\caches\transforms-3\c09a9e590a478c8db048529a43421fdd\transformed\jetified-BlurView-version-1.6.6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.Dimezis:BlurView:version-1.6.6] C:\Users\abbas\.gradle\caches\transforms-3\c09a9e590a478c8db048529a43421fdd\transformed\jetified-BlurView-version-1.6.6\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\fcf2db5f5eaa04bc33b7a62bf5aa21f3\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\abbas\.gradle\caches\transforms-3\fcf2db5f5eaa04bc33b7a62bf5aa21f3\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\abbas\.gradle\caches\transforms-3\4051165ad2084d6c9fd42cdc4ecf7036\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
