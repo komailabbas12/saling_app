@@ -13,7 +13,8 @@ export default function Electric() {
             source={require('../images/bg4.jpeg')}
             resizeMode='stretch'
             style={{
-                flex: 1
+                flex: 1,
+                backgroundColor:'#262A2D'
 
             }}>
             <View style={{
