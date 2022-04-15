@@ -173,18 +173,18 @@ export default function Status() {
 
 
                 }}>
-                    <ScaleComparing title='fresh water sb' fill='82%' />
+                    <ScaleComparing title='fresh water sb' fill={82} />
                     <View style={{ marginLeft: '6%' }}>
-                        <ScaleComparing title='fresh water sb' fill='47%' />
+                        <ScaleComparing title='fresh water sb' fill={47} />
                     </View>
                     <View style={{ marginLeft: '9%' }}>
-                        <ScaleComparing title='fresh water sb' fill='16%' />
+                        <ScaleComparing title='fresh water sb' fill={16} />
                     </View>
                     <View style={{ marginLeft: '6%' }}>
-                        <ScaleComparing title='fresh water sb' fill='48%' />
+                        <ScaleComparing title='fresh water sb' fill={48} />
                     </View>
                     <View style={{ marginLeft: '12%' }}>
-                        <ScaleComparing title='Diseil' fill='87%' />
+                        <ScaleComparing title='Diseil' fill={87} />
                     </View>
 
 
@@ -663,8 +663,8 @@ export default function Status() {
                         <Text style={{
                             fontWeight: "bold",
                             fontSize: 20,
-                            color: "#AAAAAA",
-                            marginBottom: 6,
+                            color: "#000",
+                            
                             textAlign: "center",
                             marginTop: 32
                         }}>Shore Power</Text>
@@ -682,7 +682,7 @@ export default function Status() {
                                 backgroundColor: '#141414',
                                 width: 90,
                                 height: 40,
-                                marginTop: 32,
+                                marginTop: 18,
                                 justifyContent: "center",
                                 alignItems: 'center'
 
@@ -750,7 +750,7 @@ export default function Status() {
 }
 
 const styles = StyleSheet.create({
-    indicator: { position: "absolute", width: 10, top: 1, right: 0, backgroundColor: "#fff", borderRadius: 12 },
+    indicator: { position: "absolute", width: 10, top: 1, right: 0, backgroundColor: "gray", borderRadius: 12 },
     container: {
         flex: 1,
 

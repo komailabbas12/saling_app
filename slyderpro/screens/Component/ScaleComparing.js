@@ -10,10 +10,10 @@ export default function ScaleComparing(props) {
                 <Text style={{
                     fontSize: 35,
 
-                    color: "#92FD31",
+                    color: props.fill > 50 ? "#92FD31" :"#F8E81E",
                     marginLeft: 16,
                     textAlign: "center"
-                }}>{props.fill}</Text>
+                }}>{props.fill}%</Text>
 
             </View>
             <View style={{
@@ -62,24 +62,24 @@ export default function ScaleComparing(props) {
                 </View>
                 <Neomorph
                     inner={true} // <- enable inner shadow
-                    darkShadowColor="#141414" // <- set this
-                    lightShadowColor="#2e2e2e"
+                    darkShadowColor="#222222" // <- set this
+                    lightShadowColor="#6F6E6E"
                     style={{
-                        shadowOffset: { width: 12, height: 12 },
+                        shadowOffset: { width:0, height: 100 },
                         shadowOpacity: 1,
-                        shadowColor: "white",
-                        shadowRadius: 3,
+                        shadowColor: "black",
+                        shadowRadius: 8,
                         borderRadius: 200,
-                        backgroundColor: '#1B1B1B',
-                        width: 55,
+                        backgroundColor: '#252525',
+                        width: 40,
                         height: 420,
                         justifyContent: "center"
 
                         // ...include most of View/Layout styles
                     }}
                 >
-                    <View style={{ flexDirection: 'row', width: 35, backgroundColor: '#2E2D2D', borderRadius: 100, height: 400, alignSelf: 'center', elevation: 30 }}>
-                        <View style={{ width: "100%", height: props.fill, backgroundColor: "#D66717", borderRadius: 12, alignSelf: "flex-end" }} />
+                    <View style={{ overflow:"hidden",flexDirection: 'row', width: 25, backgroundColor: '#252525', borderRadius: 100, height: 400, alignSelf: 'center', elevation: 30 }}>
+                        <View style={{ width: "100%", height: `${props.fill}%`, backgroundColor: "#D66717", borderRadius: 12, alignSelf: "flex-end" }} />
 
                     </View>
 
