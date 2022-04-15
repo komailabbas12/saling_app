@@ -26,7 +26,7 @@ var tboxTopic = "boat/control";
 var client = new Paho.MQTT.Client(tboxServer, Number(tboxPort), "GMM  - Control");
 client.connect({ onSuccess: onConnect });
 function onConnect() {
-  console.log("CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCConnect")
+  
   client.subscribe(tboxTopic);
 }
 var num =0;
@@ -38,7 +38,7 @@ function UnderEngine (props){
   // client.onConnectionLost = this.onConnectionLost;
 
   function onMessageArrived(theMessage) {
-    // console.log("onMessageArrived:" + theMessage.destinationName, theMessage.payloadString);
+    console.log("onMessageArrived:" + theMessage.destinationName, theMessage.payloadString);
     const split = theMessage.payloadString.split(';')
     console.log(split[0], split[1])
     if (split[0] == 'nav' && split[1] == 'compass') {

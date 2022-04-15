@@ -8,6 +8,7 @@ import NeumorphismButton from '../src/neumorphism-button'
 import { Switch } from 'react-native-switch';
 import Resetbtn from '../src/resetbtn';
 import LinearGradient from 'react-native-linear-gradient';
+import NumberMeter from './Component/NumberMeter';
 
 const data = [
     {
@@ -57,16 +58,16 @@ export default function Status() {
     const [isEnabled1, setIsEnabled1] = useState(false);
     const [myText1, setMyText1] = useState("11.5");
     const [myText2, setMyText2] = useState("13.5");
-    const [bgColor1, setBgColor1] = useState('#3e3e3e');
-    const [bgColor2, setBgColor2] = useState('#3e3e3e');
+    const [bgColor1, setBgColor1] = useState('#1F1F1F');
+    const [bgColor2, setBgColor2] = useState('#1F1F1F');
 
     const setBoth1 = () => {
         setBgColor1('red');
-        setBgColor2('#3e3e3e');
+        setBgColor2('#1F1F1F');
     };
 
     const setBoth2 = () => {
-        setBgColor1('#3e3e3e');
+        setBgColor1('#1F1F1F');
         setBgColor2('red');
     };
 
@@ -74,13 +75,13 @@ export default function Status() {
 
     return (
         <LinearGradient
-            colors={["#202427","#3E4345","#131617"]}
-        style={{
-           
-            flex: 1,
-            flexDirection: "row",
+            colors={["#202427", "#3E4345", "#131617"]}
+            style={{
 
-        }}>
+                flex: 1,
+                flexDirection: "row",
+
+            }}>
             <View style={{
                 width: "60%",
                 height: "100%",
@@ -232,95 +233,95 @@ export default function Status() {
                                 shadowColor: "white",
                                 shadowRadius: 3,
                                 borderRadius: 145,
-                                backgroundColor: '#252525',
+                                backgroundColor: '#313131',
                                 width: 250,
-                                height: 65,
+                                height: 80,
                                 justifyContent: "center",
                                 alignItems: "center"
 
                                 // ...include most of View/Layout styles
                             }}
                         >
-                            <View style={{ flexDirection: 'row', width: 230, backgroundColor: '#252525', borderRadius: 26, height: 50 }}>
+                            <View style={{ flexDirection: 'row', width: 230, backgroundColor: '#313131', borderRadius: 26, height: 60 }}>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
-                                    height: 30,
+                                    height: 50,
                                     alignSelf: "center",
-                                    borderRightWidth: 2,
-                                    borderColor: "#AAAAAA",
+                                    borderRightWidth: 1,
+                                    borderColor: "#B1B1B",
 
                                     justifyContent: "center",
                                     alignItems: "center",
 
                                 }}>
-                                    <Text style={{ color: '#AAAAAA', fontSize: 24, textAlign: "center" }}>0</Text>
+                                    <Text style={{ color: '#AAAAAA', fontSize: 30, textAlign: "center" }}>0</Text>
 
                                 </View>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
-                                    height: 30,
+                                   fontSize: 50,
                                     alignSelf: "center",
-                                    borderRightWidth: 2,
-                                    borderColor: "#AAAAAA",
+                                    borderRightWidth: 1,
+                                    borderColor: "#B1B1B",
 
                                     justifyContent: "center",
                                     alignItems: "center",
 
                                 }}>
-                                    <Text style={{ color: '#AAAAAA', fontSize: 24, textAlign: "center" }}>9</Text>
+                                    <Text style={{ color: '#AAAAAA', fontSize: 30, textAlign: "center" }}>1</Text>
 
                                 </View>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
-                                    height: 30,
+                                   fontSize: 50,
                                     alignSelf: "center",
-                                    borderRightWidth: 2,
-                                    borderColor: "#AAAAAA",
+                                    borderRightWidth: 1,
+                                    borderColor: "#B1B1B",
 
                                     justifyContent: "center",
                                     alignItems: "center",
 
                                 }}>
-                                    <Text style={{ color: '#AAAAAA', fontSize: 24, textAlign: "center" }}>9</Text>
+                                    <Text style={{ color: '#AAAAAA', fontSize: 30, textAlign: "center" }}>4</Text>
 
                                 </View>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
-                                    height: 30,
+                                   fontSize: 50,
                                     alignSelf: "center",
-                                    borderRightWidth: 2,
-                                    borderColor: "#AAAAAA",
+                                    borderRightWidth: 1,
+                                    borderColor: "#B1B1B",
 
                                     justifyContent: "center",
                                     alignItems: "center",
 
                                 }}>
-                                    <Text style={{ color: '#AAAAAA', fontSize: 24, textAlign: "center" }}>9</Text>
+                                    <Text style={{ color: '#AAAAAA', fontSize: 30, textAlign: "center" }}>7</Text>
 
                                 </View>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
-                                    height: 30,
+                                   fontSize: 50,
                                     alignSelf: "center",
-                                    borderRightWidth: 2,
-                                    borderColor: "#AAAAAA",
+                                    borderRightWidth: 1,
+                                    borderColor: "#B1B1B",
 
                                     justifyContent: "center",
                                     alignItems: "center",
 
                                 }}>
-                                    <Text style={{ color: '#AAAAAA', fontSize: 24, textAlign: "center" }}>9</Text>
+                                    <Text style={{ color: '#AAAAAA', fontSize: 30, textAlign: "center" }}>5</Text>
 
                                 </View>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
-                                    height: 30,
+                                   fontSize: 50,
                                     alignSelf: "center",
 
 
@@ -386,15 +387,15 @@ export default function Status() {
                         <View style={{ alignSelf: 'center', marginTop: 16 }}>
                             <Neomorph
                                 inner // <- enable inner shadow
-                                darkShadowColor="#141414" // <- set this
-                                lightShadowColor="#2e2e2e"
+                                darkShadowColor="#151515" // <- set this
+                                lightShadowColor="#414141"
                                 style={{
                                     shadowOffset: { width: 10, height: 10 },
                                     shadowOpacity: 1,
                                     shadowColor: "white",
                                     shadowRadius: 3,
                                     borderRadius: 150,
-                                    backgroundColor: '#141414',
+                                    backgroundColor: '#252525',
                                     width: 158,
                                     height: 62,
 
@@ -411,10 +412,10 @@ export default function Status() {
                                         circleSize={35}
                                         barHeight={45}
                                         circleBorderWidth={25}
-                                        circleBorderInactiveColor={'#181818'}
-                                        circleBorderActiveColor={'#181818'}
-                                        backgroundActive={'#141414'}
-                                        backgroundInactive={'#141414'}
+                                        circleBorderInactiveColor={'#202020'}
+                                        circleBorderActiveColor={'#202020'}
+                                        backgroundActive={'#252525'}
+                                        backgroundInactive={'#252525'}
                                         circleActiveColor={'green'}
                                         circleInActiveColor={'gray'}
                                         // renderInsideCircle={() => <CustomComponent />} // custom component to render inside the Switch circle (Text, Image, etc.)
@@ -437,42 +438,20 @@ export default function Status() {
                         <View style={{
                             flexDirection: "row",
                             justifyContent: "space-between",
-                            width: "90%",
+                            width: "85%",
                             marginTop: 12
                         }}>
-                            <Resetbtn style={{ padding: 12, width: 80, borderRadius: 40, borderColor: bgColor1, borderWidth: 5 }}>
-                                <Text style={{ color: 'white', fontSize: 22, alignSelf: 'center', fontWeight: 'bold' }}
+                            <Resetbtn style={{ width: 88, borderRadius: 40, borderColor: bgColor1, borderWidth: 6 , paddingVertical:12 }}>
+                                <Text style={{ color: '#AAAAAA', fontSize: 20, alignSelf: 'center', fontWeight: 'bold' }}
                                     onPress={() => setBoth1()}>start</Text>
                             </Resetbtn>
                             <View style={{ justifyContent: "center" }}>
-                                <Neomorph
-                                    inner={true}// <- enable inner shadow
-                                    darkShadowColor="#151515" // <- set this
-                                    lightShadowColor="#414141"
-                                    style={{
-                                        shadowOffset: { width: 10, height: 10 },
-                                        shadowOpacity: 1,
-                                        shadowColor: "white",
-                                        shadowRadius: 3,
-                                        borderRadius: 145,
-                                        backgroundColor: '#252525',
-                                        width: 155,
-                                        height: 65,
-
-                                        // ...include most of View/Layout styles
-                                    }}
-                                >
-                                    <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#252525', borderRadius: 26, top: 8, left: 9 }}>
-                                        <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: '#AAAAAA' }}>135</Text>
-                                        <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                        <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: '#AAAAAA' }}>°C</Text>
-                                    </View>
-                                </Neomorph>
+                                <NumberMeter number={'12,5'} skill="V" width={140} />
 
                             </View>
 
-                            <Resetbtn style={{ padding: 12, width: 80, borderRadius: 40, borderColor: bgColor2, borderWidth: 5 }}>
-                                <Text style={{ color: 'white', fontSize: 22, alignSelf: 'center', fontWeight: 'bold' }}
+                            <Resetbtn style={{ paddingVertical:12 , width: 88, borderRadius: 40, borderColor: bgColor2, borderWidth: 6 }}>
+                                <Text style={{ color: '#AAAAAA', fontSize: 20, alignSelf: 'center', fontWeight: 'bold' }}
                                     onPress={() => setBoth2()}>Stop</Text>
                             </Resetbtn>
 
@@ -485,97 +464,34 @@ export default function Status() {
                             textAlign: "center",
                             marginTop: 12
                         }}>starter battery</Text>
-                        <Neomorph
-                            inner={true}// <- enable inner shadow
-                            darkShadowColor="#141414" // <- set this
-                            lightShadowColor="#2e2e2e"
-                            style={{
-                                shadowOffset: { width: 10, height: 10 },
-                                shadowOpacity: 1,
-                                shadowColor: "white",
-                                shadowRadius: 3,
-                                borderRadius: 145,
-                                backgroundColor: '#141414',
-                                width: 180,
-                                height: 65,
-                                marginTop: 32
-
-                                // ...include most of View/Layout styles
-                            }}
-                        >
-                            <View style={{ flexDirection: 'row', width: 160, backgroundColor: '#101010', borderRadius: 26, top: 8, left: 9 }}>
-                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: 'white' }}>1250</Text>
-                                <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: 'white' }}>rpm</Text>
-                            </View>
-                        </Neomorph>
+                        <NumberMeter number={'1250'} skill="rpm" width={200} />
                         <View style={{
                             flexDirection: "row",
                             justifyContent: "space-between",
-                            width: "90%",
+                            width: "70%",
                             marginTop: 12
                         }}>
-                            <Resetbtn style={{ padding: 12, width: 65, borderRadius: 40, borderColor: '#3e3e3e', borderWidth: 5 }}>
+                            <Resetbtn style={{ padding: 12, width: 65, borderRadius: 40, borderColor: '#1F1F1F', borderWidth: 5 }}>
                                 <Text style={{ color: 'white', fontSize: 22, alignSelf: 'center', fontWeight: 'bold' }}
                                 >-</Text>
                             </Resetbtn>
                             <View style={{ justifyContent: "center" }}>
-                                <Neomorph
-                                    inner={true}// <- enable inner shadow
-                                    darkShadowColor="#141414" // <- set this
-                                    lightShadowColor="#2e2e2e"
-                                    style={{
-                                        shadowOffset: { width: 10, height: 10 },
-                                        shadowOpacity: 1,
-                                        shadowColor: "white",
-                                        shadowRadius: 3,
-                                        borderRadius: 145,
-                                        backgroundColor: '#141414',
-                                        width: 155,
-                                        height: 65,
-
-                                        // ...include most of View/Layout styles
-                                    }}
-                                >
-                                    <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#101010', borderRadius: 26, top: 8, left: 9 }}>
-                                        <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: 'white' }}>135</Text>
-                                        <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                        <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: 'white' }}>KW</Text>
-                                    </View>
-                                </Neomorph>
+                                <NumberMeter number={'20'} skill="kW" width={140} />
 
                             </View>
 
-                            <Resetbtn style={{ padding: 12, width: 65, borderRadius: 40, borderColor: '#3e3e3e', borderWidth: 5 }}>
+                            <Resetbtn style={{ padding: 12, width: 65, borderRadius: 40, borderColor: '#1F1F1F', borderWidth: 5 }}>
                                 <Text style={{ color: 'white', fontSize: 22, alignSelf: 'center', fontWeight: 'bold' }}
                                 >+</Text>
                             </Resetbtn>
 
                         </View>
-                        <Neomorph
-                            inner={true}// <- enable inner shadow
-                            darkShadowColor="#141414" // <- set this
-                            lightShadowColor="#2e2e2e"
-                            style={{
-                                shadowOffset: { width: 10, height: 10 },
-                                shadowOpacity: 1,
-                                shadowColor: "white",
-                                shadowRadius: 3,
-                                borderRadius: 145,
-                                backgroundColor: '#141414',
-                                width: 200,
-                                height: 65,
-                                marginTop: 32
+                        <View style={{
+                            marginTop: 20
+                        }}>
+                            <NumberMeter number={'01475'} skill="hrs" width={200} />
 
-                                // ...include most of View/Layout styles
-                            }}
-                        >
-                            <View style={{ flexDirection: 'row', width: 180, backgroundColor: '#101010', borderRadius: 26, top: 8, left: 9 }}>
-                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: 'white' }}>12505</Text>
-                                <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: 'white' }}>hrs</Text>
-                            </View>
-                        </Neomorph>
+                        </View>
 
                     </View>
 
@@ -597,61 +513,17 @@ export default function Status() {
                             marginBottom: 16,
                             textAlign: "center",
                         }}>Power</Text>
-                        <Neomorph
-                            inner={true}// <- enable inner shadow
-                            darkShadowColor="#151515" // <- set this
-                            lightShadowColor="#414141"
-                            style={{
-                                shadowOffset: { width: 10, height: 10 },
-                                shadowOpacity: 1,
-                                shadowColor: "white",
-                                shadowRadius: 3,
-                                borderRadius: 145,
-                                backgroundColor: '#252525',
-                                width: 155,
-                                height: 65,
-
-                                // ...include most of View/Layout styles
-                            }}
-                        >
-                            <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#252525', borderRadius: 26, top: 8, left: 9 }}>
-                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: '#AAAAAA' }}>100</Text>
-                                <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: '#AAAAAA' }}>%</Text>
-                            </View>
-                        </Neomorph>
+                        <NumberMeter number={'100'} skill="%" width={140} />
                         <Text style={{
                             fontWeight: "bold",
                             fontSize: 20,
                             color: "#AAAAAA",
                             marginBottom: 6,
                             textAlign: "center",
-                            marginTop: 12
+                            marginTop: 12,
+                            marginBottom: 32
                         }}>24 V battery</Text>
-                        <Neomorph
-                            inner={true}// <- enable inner shadow
-                            darkShadowColor="#151515" // <- set this
-                            lightShadowColor="#414141"
-                            style={{
-                                shadowOffset: { width: 10, height: 10 },
-                                shadowOpacity: 1,
-                                shadowColor: "white",
-                                shadowRadius: 3,
-                                borderRadius: 145,
-                                backgroundColor: '#252525',
-                                width: 155,
-                                height: 65,
-                                marginTop: 32
-
-                                // ...include most of View/Layout styles
-                            }}
-                        >
-                            <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#252525', borderRadius: 26, top: 8, left: 9 }}>
-                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: '#AAAAAA' }}>100</Text>
-                                <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: '#AAAAAA' }}>%</Text>
-                            </View>
-                        </Neomorph>
+                        <NumberMeter number={'100'} skill="%" width={140} />
                         <Text style={{
                             fontWeight: "bold",
                             fontSize: 20,
@@ -664,7 +536,7 @@ export default function Status() {
                             fontWeight: "bold",
                             fontSize: 20,
                             color: "#000",
-                            
+
                             textAlign: "center",
                             marginTop: 32
                         }}>Shore Power</Text>
