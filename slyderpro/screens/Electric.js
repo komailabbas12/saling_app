@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity, Alert, StyleSheet, StatusBar, FlatList, Animated, ImageBackground } from 'react-native';
-
-import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
-import NumberMeter from './Component/NumberMeter';
+import React from 'react';
+import { ImageBackground, Text, View } from 'react-native';
+import { Neomorph } from 'react-native-neomorph-shadows';
 import NeumorphismButton from '../src/neumorphism-button';
+import NumberMeter from './Component/NumberMeter';
+
 
 
 

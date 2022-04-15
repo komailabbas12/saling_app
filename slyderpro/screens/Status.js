@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity, Alert, StyleSheet, StatusBar, FlatList, Animated } from 'react-native';
-
-import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
-import Ionicons from 'react-native-vector-icons/Ionicons'
-import ScaleComparing from './Component/ScaleComparing';
-import NeumorphismButton from '../src/neumorphism-button'
-import { Switch } from 'react-native-switch';
-import Resetbtn from '../src/resetbtn';
+import React, { useState } from 'react';
+import { Animated, FlatList, StyleSheet, Text, View } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import { Neomorph } from 'react-native-neomorph-shadows';
+import { Switch } from 'react-native-switch';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import NeumorphismButton from '../src/neumorphism-button';
+import Resetbtn from '../src/resetbtn';
 import NumberMeter from './Component/NumberMeter';
+import ScaleComparing from './Component/ScaleComparing';
+
 
 const data = [
     {

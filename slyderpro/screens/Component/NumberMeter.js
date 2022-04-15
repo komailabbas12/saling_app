@@ -1,7 +1,7 @@
 
-import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity, Alert, StyleSheet, StatusBar, FlatList, Animated } from 'react-native';
-import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
+import React from 'react';
+import { Text, View } from 'react-native';
+import { Neomorph } from 'react-native-neomorph-shadows';
 
 
 
