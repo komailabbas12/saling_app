@@ -7,6 +7,7 @@ import ScaleComparing from './Component/ScaleComparing';
 import NeumorphismButton from '../src/neumorphism-button'
 import { Switch } from 'react-native-switch';
 import Resetbtn from '../src/resetbtn';
+import LinearGradient from 'react-native-linear-gradient';
 
 const data = [
     {
@@ -72,8 +73,10 @@ export default function Status() {
     const toggleSwitch1 = () => setIsEnabled1(previousState => !previousState);
 
     return (
-        <View style={{
-            backgroundColor: "#242424",
+        <LinearGradient
+            colors={["#202427","#3E4345","#131617"]}
+        style={{
+           
             flex: 1,
             flexDirection: "row",
 
@@ -167,6 +170,8 @@ export default function Status() {
                     flex: 1,
                     marginVertical: 32,
                     flexDirection: "row",
+
+
                 }}>
                     <ScaleComparing title='fresh water sb' fill='82%' />
                     <View style={{ marginLeft: '6%' }}>
@@ -181,8 +186,25 @@ export default function Status() {
                     <View style={{ marginLeft: '12%' }}>
                         <ScaleComparing title='Diseil' fill='87%' />
                     </View>
+
+
                 </View>
+
             </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <View style={{
                 width: "40%",
                 height: "100%",
@@ -723,7 +745,7 @@ export default function Status() {
 
             </View>
 
-        </View>
+        </LinearGradient>
     )
 }
 

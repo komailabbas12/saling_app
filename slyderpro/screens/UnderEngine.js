@@ -50,6 +50,12 @@ function UnderEngine (props){
       lastDigit = num.toString().slice(-2);
       console.log(lastDigit , 'xyz')    
     }
+    // if(split[0] == 'nav' && split[1] == 'gps')
+    // {
+    //   console.log(split[2], 'second api');
+    //   console.log(split[3], 'third api');
+    // }
+    
 
     // this.setState({ message: [...this.state.message, entry.payloadString] });
 
