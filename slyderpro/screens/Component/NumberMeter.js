@@ -9,15 +9,15 @@ export default function NumberMeter({ number, skill, width }) {
     return (
         <Neomorph
             inner={true}// <- enable inner shadow
-            darkShadowColor="#141414" // <- set this
-            lightShadowColor="#2e2e2e"
+            darkShadowColor="#151515" // <- set this
+            lightShadowColor="#414141"
             style={{
                 shadowOffset: { width: 10, height: 8 },
                 shadowOpacity: 1,
                 shadowColor: "white",
                 shadowRadius: 3,
                 borderRadius: 145,
-                backgroundColor: '#141414',
+                backgroundColor: '#252525',
                 width: width,
                 height: 65,
                 justifyContent: 'center',
@@ -27,7 +27,7 @@ export default function NumberMeter({ number, skill, width }) {
                 // ...include most of View/Layout styles
             }}
         >
-            <View style={{ flexDirection: 'row', width: width - 20, backgroundColor: '#101010', height: 50, borderRadius: 100 }}>
+            <View style={{ flexDirection: 'row', width: width - 20, backgroundColor: '#313131', height: 50, borderRadius: 100 }}>
                 <View style={{
                     width: "70%",
 
@@ -39,7 +39,7 @@ export default function NumberMeter({ number, skill, width }) {
                     borderColor: "#B1B1B"
 
                 }}>
-                    <Text numberOfLines={1} style={{ fontSize: 24, color: '#B1B1B1' }}>{number}</Text>
+                    <Text numberOfLines={1} style={{ fontSize: 30, color: '#B1B1B1' }}>{number}</Text>
                 </View>
 
 
@@ -50,7 +50,7 @@ export default function NumberMeter({ number, skill, width }) {
 
 
                 }}>
-                    <Text style={{ fontSize: 16, color: '#B1B1B1' }}>{skill}</Text>
+                    <Text style={{ fontSize: 20, color: '#B1B1B1' }}>{skill}</Text>
                 </View>
 
             </View>

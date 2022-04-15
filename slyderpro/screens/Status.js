@@ -224,15 +224,15 @@ export default function Status() {
                         <Text style={{ fontSize: 20, color: '#AAAAAA', marginBottom: 16 }}>total log</Text>
                         <Neomorph
                             inner={true} // <- enable inner shadow
-                            darkShadowColor="#141414" // <- set this
-                            lightShadowColor="#2e2e2e"
+                            darkShadowColor="#151515" // <- set this
+                            lightShadowColor="#414141"
                             style={{
                                 shadowOffset: { width: 10, height: 10 },
                                 shadowOpacity: 1,
                                 shadowColor: "white",
                                 shadowRadius: 3,
                                 borderRadius: 145,
-                                backgroundColor: '#141414',
+                                backgroundColor: '#252525',
                                 width: 250,
                                 height: 65,
                                 justifyContent: "center",
@@ -241,7 +241,7 @@ export default function Status() {
                                 // ...include most of View/Layout styles
                             }}
                         >
-                            <View style={{ flexDirection: 'row', width: 230, backgroundColor: '#101010', borderRadius: 26, height: 50 }}>
+                            <View style={{ flexDirection: 'row', width: 230, backgroundColor: '#252525', borderRadius: 26, height: 50 }}>
                                 <View style={{
                                     width: "16%",
                                     flexDirection: "row",
@@ -447,25 +447,25 @@ export default function Status() {
                             <View style={{ justifyContent: "center" }}>
                                 <Neomorph
                                     inner={true}// <- enable inner shadow
-                                    darkShadowColor="#141414" // <- set this
-                                    lightShadowColor="#2e2e2e"
+                                    darkShadowColor="#151515" // <- set this
+                                    lightShadowColor="#414141"
                                     style={{
                                         shadowOffset: { width: 10, height: 10 },
                                         shadowOpacity: 1,
                                         shadowColor: "white",
                                         shadowRadius: 3,
                                         borderRadius: 145,
-                                        backgroundColor: '#141414',
+                                        backgroundColor: '#252525',
                                         width: 155,
                                         height: 65,
 
                                         // ...include most of View/Layout styles
                                     }}
                                 >
-                                    <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#101010', borderRadius: 26, top: 8, left: 9 }}>
-                                        <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: 'white' }}>135</Text>
+                                    <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#252525', borderRadius: 26, top: 8, left: 9 }}>
+                                        <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: '#AAAAAA' }}>135</Text>
                                         <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                        <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: 'white' }}>°C</Text>
+                                        <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: '#AAAAAA' }}>°C</Text>
                                     </View>
                                 </Neomorph>
 
@@ -599,25 +599,25 @@ export default function Status() {
                         }}>Power</Text>
                         <Neomorph
                             inner={true}// <- enable inner shadow
-                            darkShadowColor="#141414" // <- set this
-                            lightShadowColor="#2e2e2e"
+                            darkShadowColor="#151515" // <- set this
+                            lightShadowColor="#414141"
                             style={{
                                 shadowOffset: { width: 10, height: 10 },
                                 shadowOpacity: 1,
                                 shadowColor: "white",
                                 shadowRadius: 3,
                                 borderRadius: 145,
-                                backgroundColor: '#141414',
+                                backgroundColor: '#252525',
                                 width: 155,
                                 height: 65,
 
                                 // ...include most of View/Layout styles
                             }}
                         >
-                            <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#101010', borderRadius: 26, top: 8, left: 9 }}>
-                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: 'white' }}>100</Text>
+                            <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#252525', borderRadius: 26, top: 8, left: 9 }}>
+                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: '#AAAAAA' }}>100</Text>
                                 <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: 'white' }}>%</Text>
+                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: '#AAAAAA' }}>%</Text>
                             </View>
                         </Neomorph>
                         <Text style={{
@@ -630,15 +630,15 @@ export default function Status() {
                         }}>24 V battery</Text>
                         <Neomorph
                             inner={true}// <- enable inner shadow
-                            darkShadowColor="#141414" // <- set this
-                            lightShadowColor="#2e2e2e"
+                            darkShadowColor="#151515" // <- set this
+                            lightShadowColor="#414141"
                             style={{
                                 shadowOffset: { width: 10, height: 10 },
                                 shadowOpacity: 1,
                                 shadowColor: "white",
                                 shadowRadius: 3,
                                 borderRadius: 145,
-                                backgroundColor: '#141414',
+                                backgroundColor: '#252525',
                                 width: 155,
                                 height: 65,
                                 marginTop: 32
@@ -646,10 +646,10 @@ export default function Status() {
                                 // ...include most of View/Layout styles
                             }}
                         >
-                            <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#101010', borderRadius: 26, top: 8, left: 9 }}>
-                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: 'white' }}>100</Text>
+                            <View style={{ flexDirection: 'row', width: 138, backgroundColor: '#252525', borderRadius: 26, top: 8, left: 9 }}>
+                                <Text style={{ marginLeft: 20, marginTop: 5, fontSize: 30, color: '#AAAAAA' }}>100</Text>
                                 <View style={{ height: '80%', marginTop: 5, width: 2, backgroundColor: 'gray', marginLeft: 20 }}></View>
-                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: 'white' }}>%</Text>
+                                <Text style={{ marginLeft: 5, marginTop: 10, fontSize: 20, color: '#AAAAAA' }}>%</Text>
                             </View>
                         </Neomorph>
                         <Text style={{

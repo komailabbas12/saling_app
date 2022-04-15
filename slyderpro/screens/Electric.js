@@ -14,7 +14,7 @@ export default function Electric() {
             resizeMode='stretch'
             style={{
                 flex: 1,
-                backgroundColor:'#262A2D'
+                backgroundColor: '#262A2D'
 
             }}>
             <View style={{
@@ -42,7 +42,7 @@ export default function Electric() {
                                 borderRadius: 12,
 
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={'4,7'} skill="A" width={140} />
                             </View>
                         </View>
                         <View style={{
@@ -58,7 +58,7 @@ export default function Electric() {
                                 borderRadius: 12
 
                             }}>
-                                <NumberMeter number={4.5} skill="A" width={140} />
+                                <NumberMeter number={'4,5'} skill="A" width={140} />
                             </View>
                             <View style={{
                                 borderWidth: 2,
@@ -67,7 +67,7 @@ export default function Electric() {
                                 borderRadius: 12,
 
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={'4,6'} skill="A" width={140} />
                             </View>
 
                         </View>
@@ -87,7 +87,7 @@ export default function Electric() {
                                 marginBottom: 15
 
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={'4,5'} skill="A" width={140} />
                             </View>
                             <View style={{
                                 borderWidth: 2,
@@ -96,7 +96,7 @@ export default function Electric() {
                                 borderRadius: 12
 
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={'4,7'} skill="A" width={140} />
                             </View>
 
                         </View>
@@ -120,7 +120,7 @@ export default function Electric() {
 
                                 }}>
 
-                                    <NumberMeter number={4.8} skill="A" width={140} />
+                                    <NumberMeter number={'4,7'} skill="A" width={140} />
                                 </View>
                             </View>
 
@@ -130,7 +130,7 @@ export default function Electric() {
 
                     <View style={{
                         flex: 1,
-                        marginVertical: 32,
+                        marginBottom: 32,
                         marginRight: 90
                     }}>
                         <View style={{
@@ -145,8 +145,8 @@ export default function Electric() {
                                 justifyContent: 'space-between',
                                 marginTop: "14%"
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={20} skill="KW" width={140} />
+                                <NumberMeter number={20} skill="KW" width={140} />
 
                             </View>
                             <View style={{
@@ -154,8 +154,8 @@ export default function Electric() {
                                 justifyContent: 'space-between',
                                 marginTop: "4%"
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={100} skill="%" width={140} />
+                                <NumberMeter number={100} skill="%" width={140} />
 
                             </View>
                             <View style={{
@@ -163,8 +163,8 @@ export default function Electric() {
                                 justifyContent: 'space-between',
                                 marginTop: "8%"
                             }}>
-                                <NumberMeter number={123} skill="A" width={140} />
-                                <NumberMeter number={123} skill="A" width={140} />
+                                <NumberMeter number={70} skill="°C" width={140} />
+                                <NumberMeter number={70} skill="°C" width={140} />
 
                             </View>
 
@@ -185,10 +185,10 @@ export default function Electric() {
 
 
                             }}>
-                                <View style={{ marginLeft: '28%' }}>
-                                    <NumberMeter number={123} skill="kvm" width={140} />
+                                <View style={{ marginLeft: '28%', marginTop: "8%" }}>
+                                    <NumberMeter number={20} skill="km" width={140} />
                                 </View>
-                                <NumberMeter number={1234} skill="rpm" width={200} />
+                                <NumberMeter number={1250} skill="rpm" width={200} />
 
                             </View>
                             <View style={{
@@ -196,18 +196,18 @@ export default function Electric() {
                                 height: "100%",
                                 alignItems: "center"
                             }}>
-                                <View style={{ marginTop: "3%" }}>
+                                <View style={{ marginTop: "18%" }}>
                                     <Neomorph
                                         inner={true}// <- enable inner shadow
-                                        darkShadowColor="#141414" // <- set this
-                                        lightShadowColor="#2e2e2e"
+                                        darkShadowColor="#151515" // <- set this
+                                        lightShadowColor="#414141"
                                         style={{
                                             shadowOffset: { width: 10, height: 8 },
                                             shadowOpacity: 1,
                                             shadowColor: "white",
                                             shadowRadius: 3,
                                             borderRadius: 145,
-                                            backgroundColor: '#141414',
+                                            backgroundColor: '#313131',
                                             width: 170,
                                             height: 65,
                                             justifyContent: 'center',
@@ -217,7 +217,7 @@ export default function Electric() {
                                             // ...include most of View/Layout styles
                                         }}
                                     >
-                                        <View style={{ flexDirection: 'row', width: 150, backgroundColor: '#101010', height: 50, borderRadius: 100 }}>
+                                        <View style={{ flexDirection: 'row', width: 150, backgroundColor: '#313131', height: 50, borderRadius: 100 }}>
                                             <View style={{
                                                 width: "33.33%",
 
@@ -229,7 +229,7 @@ export default function Electric() {
                                                 borderColor: "#B1B1B"
 
                                             }}>
-                                                <Text numberOfLines={1} style={{ fontSize: 24, color: '#B1B1B1' }}>2,3</Text>
+                                                <Text numberOfLines={1} style={{ fontSize: 24, color: '#AAAAAA' }}>5,3</Text>
                                             </View>
                                             <View style={{
                                                 width: "33.33%",
@@ -242,7 +242,7 @@ export default function Electric() {
                                                 borderColor: "#B1B1B"
 
                                             }}>
-                                                <Text numberOfLines={1} style={{ fontSize: 24, color: '#B1B1B1' }}>kW</Text>
+                                                <Text numberOfLines={1} style={{ fontSize: 24, color: '#AAAAAA' }}>kW</Text>
                                             </View>
 
 
@@ -253,7 +253,7 @@ export default function Electric() {
 
 
                                             }}>
-                                                <Text numberOfLines={1} style={{ fontSize: 24, color: '#B1B1B1' }}>4,6</Text>
+                                                <Text numberOfLines={1} style={{ fontSize: 24, color: '#B1B1B1' }}>5,6</Text>
                                             </View>
 
                                         </View>
@@ -301,10 +301,10 @@ export default function Electric() {
 
                         }}>
                             <View style={{ width: "48%", alignItems: "center" }}>
-                                <NumberMeter number={123} skill="kwm" width={140} />
+                                <NumberMeter number={'2,8'} skill="kW" width={140} />
                             </View>
                             <View style={{ width: '52%', alignItems: "center" }}>
-                                <NumberMeter number={123} skill="kwm" width={140} />
+                                <NumberMeter number={'2,8'} skill="kW" width={140} />
                             </View>
                         </View>
                         <View style={{
@@ -316,10 +316,10 @@ export default function Electric() {
 
                         }}>
                             <View style={{ width: "48%", alignItems: "center" }}>
-                                <NumberMeter number={123} skill="kwm" width={140} />
+                                <NumberMeter number={100} skill="%" width={140} />
                             </View>
                             <View style={{ width: '52%', alignItems: "center" }}>
-                                <NumberMeter number={123} skill="kwm" width={140} />
+                                <NumberMeter number={100} skill="%" width={140} />
                             </View>
                         </View>
 
@@ -341,34 +341,61 @@ export default function Electric() {
                                 flexDirection: "row",
                                 justifyContent: "space-between"
                             }}>
-                                <View style={{
-                                    borderWidth: 2,
-                                    borderColor: '#B1B1B1',
-                                    padding: 12,
-                                    borderRadius: 12
+                                <View>
+                                    <View style={{
+                                        borderWidth: 2,
+                                        borderColor: '#B1B1B1',
+                                        padding: 12,
+                                        borderRadius: 12
 
-                                }}>
-                                    <NumberMeter number={123} skill="A" width={140} />
+                                    }}>
+                                        <NumberMeter number={200} skill="A" width={140} />
+                                    </View>
+                                    <Text style={{
+                                        fontSize: 20,
+                                        color: "#AAAAAA",
+                                        textAlign: "center",
+                                        marginTop: 24,
+                                        fontWeight:"bold"
+                                    }}> 230V ac</Text>
                                 </View>
-                                <View style={{
-                                    borderWidth: 2,
-                                    borderColor: '#B1B1B1',
-                                    padding: 12,
-                                    borderRadius: 12,
-                                    marginRight:'1%'
+                                <View>
+                                    <View style={{
+                                        borderWidth: 2,
+                                        borderColor: '#B1B1B1',
+                                        padding: 12,
+                                        borderRadius: 12,
+                                        marginRight: '1%'
 
-                                }}>
-                                    <NumberMeter number={123} skill="A" width={140} />
+                                    }}>
+                                        <NumberMeter number={107} skill="A" width={140} />
+                                    </View>
+                                    <Text style={{
+                                        fontSize: 20,
+                                        color: "#AAAAAA",
+                                        textAlign: "center",
+                                        marginTop: 24,
+                                        fontWeight:"bold"
+                                    }}> 24V dc</Text>
                                 </View>
-                                <View style={{
-                                    borderWidth: 2,
-                                    borderColor: '#B1B1B1',
-                                    padding: 12,
-                                    borderRadius: 12,
-                                    marginRight:"3%"
+                                <View>
+                                    <View style={{
+                                        borderWidth: 2,
+                                        borderColor: '#B1B1B1',
+                                        padding: 12,
+                                        borderRadius: 12,
+                                        // marginRight:"3%"
 
-                                }}>
-                                    <NumberMeter number={123} skill="A" width={140} />
+                                    }}>
+                                        <NumberMeter number={20} skill="A" width={140} />
+                                    </View>
+                                    <Text style={{
+                                        fontSize: 20,
+                                        color: "#AAAAAA",
+                                        textAlign: "center",
+                                        marginTop: 24,
+                                        fontWeight:"bold"
+                                    }}> 12V dc</Text>
                                 </View>
 
                             </View>

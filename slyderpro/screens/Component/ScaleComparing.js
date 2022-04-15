@@ -62,15 +62,15 @@ export default function ScaleComparing(props) {
                 </View>
                 <Neomorph
                     inner={true} // <- enable inner shadow
-                    darkShadowColor="#222222" // <- set this
-                    lightShadowColor="#6F6E6E"
+                    darkShadowColor="#000" // <- set this
+                    lightShadowColor="#736D69"
                     style={{
-                        shadowOffset: { width:0, height: 100 },
-                        shadowOpacity: 1,
-                        shadowColor: "black",
-                        shadowRadius: 8,
+                        shadowOffset: { width:0, height: 110 },
+                        shadowOpacity: 10,
+                        shadowColor: "#fff",
+                        shadowRadius: 7,
                         borderRadius: 200,
-                        backgroundColor: '#252525',
+                        backgroundColor: '#000',
                         width: 40,
                         height: 420,
                         justifyContent: "center"
