@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, ScrollView, Image, TouchableOpacity, Alert, StyleSheet, StatusBar, FlatList, Animated } from 'react-native';
+import React from 'react';
+import { Text, View } from 'react-native';
+import { Neomorph } from 'react-native-neomorph-shadows';
 
-import { Shadow, Neomorph } from 'react-native-neomorph-shadows';
 
 export default function ScaleComparing(props) {
     return (
@@ -33,27 +33,25 @@ export default function ScaleComparing(props) {
                             <View
                             key={index}
                             style={{
-                                height:5.5,
-                                width:30,
                                 flexDirection:"row-reverse"
                             }}>
                                 <Neomorph
                                   
                                     inner // <- enable inner shadow
-                                    darkShadowColor="#4C4C4C" // <- set this
-                                    lightShadowColor="#4C4C4C"
+                                    darkShadowColor="gray" // <- set this
+                                    lightShadowColor="gray"
                                     style={{
                                         shadowOffset: { width: 0, height: 10 },
                                         shadowOpacity: 1,
-                                        shadowColor: "#141414",
-                                        shadowRadius: 3,
+                                        shadowColor: "gray",
+                                        shadowRadius: 0,
                                         borderRadius: 150,
-                                        backgroundColor: '#000',
-                                        width: index == 0 || index == 10 || index == 5 ? 30 : 26,
-                                        height: 5.5,
+                                        backgroundColor: 'gray',
+                                        width: index == 0 || index == 10 || index == 5 ? 26 : 18,
+                                        height: 4,
                                     }}
                                 >
-                                    <View style={{ width: index == 0 || index == 10 || index == 5 ? 30 : 26, height: 3.5, backgroundColor: '#000', borderRadius: 100,  }} />
+                                    <View style={{ width: index == 0 || index == 10 || index == 5 ? 26 : 18, height: 2, backgroundColor: '#000', borderRadius: 150,  }} />
                                 </Neomorph>
                             </View>
 
